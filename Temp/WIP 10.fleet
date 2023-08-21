@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>WIP 10</Name>
+  <Version>3</Version>
+  <TotalPoints>2880</TotalPoints>
+  <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>2866433a-f2c5-46ef-bc67-a32b6fd47d79</Key>
+      <Name>Mock Wimp</Name>
+      <Cost>2230</Cost>
+      <Callsign>Missile PD</Callsign>
+      <Number>393</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Vauxhall Light Cruiser</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>T9Ebo41iA0eBXNYx8uyisw</Key>
+          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>1I-WGGsmaEO4LAeV0_omXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-315 Le Dart AC</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>2QQdxC4UE0KOM42r82-ETQ</Key>
+          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>SUfHa_akEE2s-9raC3T0fw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-315 Le Dart AC</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>IFKM9E04aUaHS0IoNDMShA</Key>
+          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>5DHKPkoiI0GU3Dg5P4AMCA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-315 Le Dart AC</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>rX6hes7UqkyHjEyKbFaWTQ</Key>
+          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>rZpTKUF4y0OS5FyNB519Gg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-315 Le Dart AC</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>BRMwuusKC02YrbFXRrrNzA</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>ii5SFja2LUKMiSZdhk6e8w</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>15</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>vO1oPhlSuUih_cdAZk3Hqg</Key>
+          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>x5xVM0PUl0qPjc5tI90TLg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-315 Le Dart AC</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>RLHQUFf200uLZjKX5axkMw</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>uyPDg0tD3U6YKz18bVdkPg</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Xicf0TT7pEaFy_x1uk7ueQ</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>XTg1H1Popku5gxW8sei5XQ</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>a8H-rPyVSk6uBOrP7lQYUA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>NBbnpHfpDUSS6bNgDlSjzw</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-bAF6R6aiU2Afn8T_oKY4g</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-7H3WGDwyESDI3lkHzBdGQ</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>o1o5WOogUE255YVi43KlcQ</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>ipZqPFg16EGRDBb-8BZopg</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>10000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>DAcDeA0yskSjje92CY-F7w</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>jKvCg9nYmkKfAn4-ht_Y6A</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>8VKMmbA23Em1f-MBZKO2vA</Key>
+          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>udQjNCWlA0awkv6LhH55uQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>3eXWUksWXk-5q9MW52rghw</Key>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>_jqFwgf3EkKUUqHzVWidzw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>N_gGUWCQx0mUOX9RaFoI6A</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E1ZSbpYpZkufCyifYiiK8Q</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-hETYcmKH0eeXzkFpnhgeg</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hU2L93VfQU-jutnRC0dKgw</Key>
+          <ComponentName>Stock/ES32 'Scryer' Missile ID System</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>7976a665-76c6-4169-999e-7a51772f3c78</Key>
+      <Name>Drear Epoxy</Name>
+      <Cost>350</Cost>
+      <Callsign>EW ECM</Callsign>
+      <Number>696</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Sprinter Corvette</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
+          <ComponentName>Stock/ES22 'Pinard' Electronic Support Module</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZxY9ONYz80SiLNSObvjNzQ</Key>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
+          <ComponentName>Stock/Small DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>4WpJyiOKVEqCwR99l47MkA</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="EW 1">
+          <MemberKeys>
+            <string>wDsRnL5nKkyYvKgD6VcPHg</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW 2">
+          <MemberKeys>
+            <string>IUdNSVZm2Eu9n3F5HnSAng</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW 3">
+          <MemberKeys>
+            <string>ZxY9ONYz80SiLNSObvjNzQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>2866433a-f2c5-46ef-bc67-a32b6fd47d79</GuideKey>
+        <RelativePosition>
+          <x>30.011013</x>
+          <y>0</y>
+          <z>0.019361496</z>
+        </RelativePosition>
+      </InitialFormation>
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>45c1108d-ec2b-4a40-b9f6-1aae4c1ebb01</Key>
+      <Name>Ill Jive</Name>
+      <Cost>150</Cost>
+      <Number>532</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Sprinter Corvette</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>4WpJyiOKVEqCwR99l47MkA</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>e61735ea-8213-4358-b460-1c99582ea67e</Key>
+      <Name>Dank Dame</Name>
+      <Cost>150</Cost>
+      <Number>91</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Sprinter Corvette</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>4WpJyiOKVEqCwR99l47MkA</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <AssociatedTemplateName>SGM-H-315 Le Dart AC</AssociatedTemplateName>
+      <Designation>SGM-H-315</Designation>
+      <Nickname>Le Dart AC</Nickname>
+      <Description>DIRECT - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[&lt;color=#FBFF4C&gt;CMD&lt;/color&gt;] - HEKP</Description>
+      <LongDescription>The SGM-H-315 Le Dart AC is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Delayed Contact Fuze, High Explosive, Kinetic Penetrator warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using command guidance from its launching ship.
+
+Control Method: DIRECT
+Targeting Modes:
+	&lt;b&gt;&lt;color=#FBFF4C&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Validation Seeker(s): COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
+
+Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
+Sprint: 676 m/s for 6,260 m, top speed in 0.8 s
+   Stage Trigger at 5,000m from Target (&lt;color=#FBFF4C&gt;Limited By Seeker Range&lt;/color&gt;)
+Terminal Maneuvers: None
+
+Delayed Contact Fuze, High Explosive, Kinetic Penetrator
+Penetrator:
+   Armor: 400 cm
+   Component: 212 hp
+Explosive:
+   Component: 3,600 hp
+
+Body Integrity: 60 
+Programming Time: 16 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>46</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>a2a69dde-ede3-4f08-af10-8133df7ef9a0</TemplateKey>
+      <BaseColor>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>-0</r>
+        <g>-7.07805157E-08</g>
+        <b>-1.02658735E-08</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>true</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Validation</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Kinetic Penetrator</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.280314624</A>
+              <B>0.570371</B>
+              <C>0.1493144</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>

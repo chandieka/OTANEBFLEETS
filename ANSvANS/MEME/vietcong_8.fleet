@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>vietcong 8</Name>
+  <Version>3</Version>
+  <TotalPoints>3000</TotalPoints>
+  <FactionKey>Stock/Alliance</FactionKey>
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>bf2d19b1-fa8e-4207-8cb9-0552789d0ed6</Key>
+      <Name>Birch Idiom</Name>
+      <Cost>375</Cost>
+      <Number>780</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>a77e5813-61b3-4400-99b6-864c511ec10f</Key>
+      <Name>Patio Dry</Name>
+      <Cost>375</Cost>
+      <Number>1488</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>5a8258dc-ab8c-4512-ac1b-78f6d590c5a1</Key>
+      <Name>Samantha G. Autum</Name>
+      <Cost>375</Cost>
+      <Number>46</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>b4ccb5fb-cb3c-45ae-8db6-56ea549f2388</Key>
+      <Name>Wader and Rash</Name>
+      <Cost>375</Cost>
+      <Number>690</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>6f8888c8-0ed8-4271-8bd0-2960603b17c0</Key>
+      <Name>Ninth</Name>
+      <Cost>375</Cost>
+      <Number>417</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>1c064664-414c-4009-b0b7-78f7e0bea2b0</Key>
+      <Name>The Meek Block</Name>
+      <Cost>375</Cost>
+      <Number>860</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>608822ba-daa7-432e-8c54-881916dea6d4</Key>
+      <Name>Nasty Super</Name>
+      <Cost>375</Cost>
+      <Number>959</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>47f3cff5-dc7e-4ae3-9192-fcf423933d58</Key>
+      <Name>Roost and Swag</Name>
+      <Cost>375</Cost>
+      <Number>1036</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Keystone Destroyer</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hGeid9yk80GqIN5IUlp8aw</Key>
+          <ComponentName>Stock/Mk600 Beam Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>PlyaCcjDo0qu155JIZgm6A</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>H-oABJbYw0qgKd4QzU0WaA</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>AWYvQUZ26k20yHOrVQKg6Q</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tmHTz6HkrE-RUtN94W6lyQ</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>m5J1jQdOfUKM9r7NZjMpKA</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>h29TSNGRo0m_DmeRr2BqDw</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+  </Ships>
+</Fleet>

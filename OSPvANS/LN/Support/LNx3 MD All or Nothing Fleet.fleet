@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>LNx3 MD All or Nothing Fleet</Name>
+  <Version>3</Version>
+  <TotalPoints>3000</TotalPoints>
+  <FactionKey>Stock/Protectorate</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>6f839a70-e031-4cad-bfda-3f2ff83e4e57</Key>
+      <Name>Picky Play</Name>
+      <Cost>1000</Cost>
+      <Callsign>MD A</Callsign>
+      <Number>932</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Bulk Hauler</HullType>
+      <HullConfig xsi:type="RandomHullConfiguration">
+        <PrimaryStructure>
+          <SegmentConfiguration>
+            <Key>29eb9c63-6c47-40f2-8f46-4ed4da8d3386</Key>
+            <Dressing>
+              <int>1</int>
+              <int>1</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>e2c11e02-b770-495e-a3c2-3dc998eac5a6</Key>
+            <Dressing>
+              <int>1</int>
+              <int>1</int>
+              <int>1</int>
+              <int>0</int>
+              <int>1</int>
+              <int>1</int>
+              <int>0</int>
+              <int>0</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>78d72a9a-893c-41c6-bddd-f198dfcf77ee</Key>
+            <Dressing />
+          </SegmentConfiguration>
+        </PrimaryStructure>
+        <SecondaryStructure>
+          <SecondaryStructureConfig>
+            <Key>9ebcea74-e9c9-45b3-b616-e12e3f491024</Key>
+            <Segment>2</Segment>
+            <SnapPoint>0</SnapPoint>
+          </SecondaryStructureConfig>
+        </SecondaryStructure>
+        <HullTint>
+          <r>0.641200364</r>
+          <g>0.641200364</g>
+          <b>0.641200364</b>
+          <a>1</a>
+        </HullTint>
+        <TextureVariation>
+          <x>-841.6703</x>
+          <y>-744.8883</y>
+          <z>-321.6423</z>
+        </TextureVariation>
+      </HullConfig>
+      <SocketMap>
+        <HullSocket>
+          <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>grYBjxIS3E--lmrqenuK8A</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>8pltGexHAEyFL2ljOe0oMQ</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>x4TDyHJiVkCirMSf7sU5tA</MagazineKey>
+                <MunitionKey>Stock/500mm Fracturing Block</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>fYoX2amTl0KrZurPKjU9gg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>3Ky8PvdxqUKMRXZa0xLF2A</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>T9TN0ZYumUaCxcSRjO_qTw</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>T4d-8WnA_UiHSJh6PXiXpA</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>FVcPIcV_00eu62NQQK3oLg</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>1FrTJ5o850ynlq4dRDmMbA</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6evWdeLGT0uALe075-nhgw</Key>
+          <ComponentName>Stock/Boosted Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JVCLf3RKKUOBEXaWWkVLMw</Key>
+          <ComponentName>Stock/Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JHJi2y5Xskytpw5-Qbu95A</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>yryHYXgMWEy969gRuaDO6w</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>M3mc7A4WOU-2fq5XgRSECA</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>S-rQo19r20K0L0PRer3yMw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>MQyTgOLGCkyeljdvbkkFDA</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="MD">
+          <MemberKeys>
+            <string>grYBjxIS3E--lmrqenuK8A</string>
+            <string>d3N-B_JnDUKAdVRBJ6nvFQ</string>
+            <string>E9IMUD_Uz0661-nYgJh4Mg</string>
+            <string>8pltGexHAEyFL2ljOe0oMQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>b6feb1f8-3c1c-4fa9-8336-166bd3c00d37</Key>
+      <Name>Avian Salt</Name>
+      <Cost>1000</Cost>
+      <Callsign>MD B</Callsign>
+      <Number>194</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Bulk Hauler</HullType>
+      <HullConfig xsi:type="RandomHullConfiguration">
+        <PrimaryStructure>
+          <SegmentConfiguration>
+            <Key>38e7a28f-1b06-4b73-98ee-f03d1d8a81fe</Key>
+            <Dressing>
+              <int>0</int>
+              <int>0</int>
+              <int>0</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>d4c9a66d-81e6-49ee-9b33-82d7a1522bbf</Key>
+            <Dressing>
+              <int>1</int>
+              <int>0</int>
+              <int>0</int>
+              <int>1</int>
+              <int>1</int>
+              <int>0</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>2f2b451c-4776-405c-9914-cad4764f1072</Key>
+            <Dressing />
+          </SegmentConfiguration>
+        </PrimaryStructure>
+        <SecondaryStructure>
+          <SecondaryStructureConfig>
+            <Key>c9d04445-3558-46b4-b6fc-7dca8617d438</Key>
+            <Segment>1</Segment>
+            <SnapPoint>0</SnapPoint>
+          </SecondaryStructureConfig>
+        </SecondaryStructure>
+        <HullTint>
+          <r>0.6469983</r>
+          <g>0.6469983</g>
+          <b>0.6469983</b>
+          <a>1</a>
+        </HullTint>
+        <TextureVariation>
+          <x>-277.591583</x>
+          <y>-236.282959</y>
+          <z>58.39743</z>
+        </TextureVariation>
+      </HullConfig>
+      <SocketMap>
+        <HullSocket>
+          <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>grYBjxIS3E--lmrqenuK8A</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>8pltGexHAEyFL2ljOe0oMQ</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>x4TDyHJiVkCirMSf7sU5tA</MagazineKey>
+                <MunitionKey>Stock/500mm Fracturing Block</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3Ky8PvdxqUKMRXZa0xLF2A</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>fYoX2amTl0KrZurPKjU9gg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>T9TN0ZYumUaCxcSRjO_qTw</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>T4d-8WnA_UiHSJh6PXiXpA</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>FVcPIcV_00eu62NQQK3oLg</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>1FrTJ5o850ynlq4dRDmMbA</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6evWdeLGT0uALe075-nhgw</Key>
+          <ComponentName>Stock/Boosted Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JVCLf3RKKUOBEXaWWkVLMw</Key>
+          <ComponentName>Stock/Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JHJi2y5Xskytpw5-Qbu95A</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>yryHYXgMWEy969gRuaDO6w</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>MQyTgOLGCkyeljdvbkkFDA</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>S-rQo19r20K0L0PRer3yMw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>M3mc7A4WOU-2fq5XgRSECA</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="MD">
+          <MemberKeys>
+            <string>grYBjxIS3E--lmrqenuK8A</string>
+            <string>d3N-B_JnDUKAdVRBJ6nvFQ</string>
+            <string>E9IMUD_Uz0661-nYgJh4Mg</string>
+            <string>8pltGexHAEyFL2ljOe0oMQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>6bcc10d5-2d77-4c32-b95c-5f9cfdc91ac8</Key>
+      <Name>Rowdy Crock</Name>
+      <Cost>1000</Cost>
+      <Callsign>MD C</Callsign>
+      <Number>532</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Bulk Hauler</HullType>
+      <HullConfig xsi:type="RandomHullConfiguration">
+        <PrimaryStructure>
+          <SegmentConfiguration>
+            <Key>29eb9c63-6c47-40f2-8f46-4ed4da8d3386</Key>
+            <Dressing>
+              <int>1</int>
+              <int>1</int>
+              <int>0</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>d4c9a66d-81e6-49ee-9b33-82d7a1522bbf</Key>
+            <Dressing>
+              <int>0</int>
+              <int>1</int>
+              <int>0</int>
+              <int>0</int>
+              <int>1</int>
+              <int>1</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>2f2b451c-4776-405c-9914-cad4764f1072</Key>
+            <Dressing />
+          </SegmentConfiguration>
+        </PrimaryStructure>
+        <SecondaryStructure>
+          <SecondaryStructureConfig>
+            <Key>42d07c1a-156b-4057-aaca-7a2024751423</Key>
+            <Segment>1</Segment>
+            <SnapPoint>0</SnapPoint>
+          </SecondaryStructureConfig>
+        </SecondaryStructure>
+        <HullTint>
+          <r>0.468069732</r>
+          <g>0.468069732</g>
+          <b>0.468069732</b>
+          <a>1</a>
+        </HullTint>
+        <TextureVariation>
+          <x>154.864166</x>
+          <y>-414.5304</y>
+          <z>-873.6522</z>
+        </TextureVariation>
+      </HullConfig>
+      <SocketMap>
+        <HullSocket>
+          <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>grYBjxIS3E--lmrqenuK8A</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>8pltGexHAEyFL2ljOe0oMQ</Key>
+          <ComponentName>Stock/TE45 Mass Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>x4TDyHJiVkCirMSf7sU5tA</MagazineKey>
+                <MunitionKey>Stock/500mm Fracturing Block</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3Ky8PvdxqUKMRXZa0xLF2A</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>fYoX2amTl0KrZurPKjU9gg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>T9TN0ZYumUaCxcSRjO_qTw</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>T4d-8WnA_UiHSJh6PXiXpA</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>FVcPIcV_00eu62NQQK3oLg</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>1FrTJ5o850ynlq4dRDmMbA</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6evWdeLGT0uALe075-nhgw</Key>
+          <ComponentName>Stock/Boosted Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JVCLf3RKKUOBEXaWWkVLMw</Key>
+          <ComponentName>Stock/Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JHJi2y5Xskytpw5-Qbu95A</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>yryHYXgMWEy969gRuaDO6w</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>MQyTgOLGCkyeljdvbkkFDA</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>S-rQo19r20K0L0PRer3yMw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>M3mc7A4WOU-2fq5XgRSECA</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="MD">
+          <MemberKeys>
+            <string>grYBjxIS3E--lmrqenuK8A</string>
+            <string>d3N-B_JnDUKAdVRBJ6nvFQ</string>
+            <string>E9IMUD_Uz0661-nYgJh4Mg</string>
+            <string>8pltGexHAEyFL2ljOe0oMQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <TemplateMissileTypes />
+    </Ship>
+  </Ships>
+</Fleet>
