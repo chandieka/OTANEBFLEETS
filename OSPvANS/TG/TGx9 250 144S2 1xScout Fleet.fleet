@@ -10,8 +10,8 @@
       <SaveID xsi:nil="true" />
       <Key>6d669755-7315-4298-8896-9d342b84858c</Key>
       <Name>Angry Why</Name>
-      <Cost>328</Cost>
-      <Callsign>Sensor Missile ECM</Callsign>
+      <Cost>308</Cost>
+      <Callsign>LRT Missile ECM</Callsign>
       <Number>279</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -72,15 +72,11 @@
         </HullSocket>
         <HullSocket>
           <Key>NSAbhn9brE-aAirJFIYG-Q</Key>
-          <ComponentName>Stock/Boosted Reactor</ComponentName>
+          <ComponentName>Stock/Civilian Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
-          <ComponentName>Stock/Bulwark Huntress</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -177,15 +173,11 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>v7vnexI1xUemaSmSkn0QNA</Key>
-          <ComponentName>Stock/ES32 'Scryer' Missile ID System</ComponentName>
+          <ComponentName>Stock/Bulwark Huntress</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -214,7 +206,7 @@
       <SaveID xsi:nil="true" />
       <Key>89830970-732a-479a-ae57-3b761f7ccfef</Key>
       <Name>Perky Lash</Name>
-      <Cost>298</Cost>
+      <Cost>308</Cost>
       <Callsign>Gun Missile ECM</Callsign>
       <Number>843</Number>
       <SymbolOption>0</SymbolOption>
@@ -290,11 +282,11 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+          <ComponentName>Stock/Bulwark Huntress</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -399,7 +391,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -508,7 +500,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -606,7 +598,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -715,7 +707,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -833,7 +825,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -861,7 +853,7 @@
       <SaveID xsi:nil="true" />
       <Key>c6900350-47cb-4e62-8547-3070cc451cd2</Key>
       <Name>Quack Rapid</Name>
-      <Cost>316</Cost>
+      <Cost>326</Cost>
       <Callsign>Gun Missile</Callsign>
       <Number>522</Number>
       <SymbolOption>0</SymbolOption>
@@ -883,7 +875,7 @@
               <MagSaveData>
                 <MagazineKey>_IpRt7PUOU2w9WNIRK1Vow</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-101 Knife LR-3</MunitionKey>
-                <Quantity>14</Quantity>
+                <Quantity>19</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -946,7 +938,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <ComponentName>Stock/BW800-R Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -1032,6 +1024,7 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 60cm   Component: 1,200hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 30 
 Programming Time: 8 s
@@ -1122,12 +1115,20 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-300 m/s for 7,064 m, top speed in 0.9 s
+350 m/s for 5,430 m, top speed in 1.0 s
 Terminal Maneuvers: None
 
 Proximity Fuze, High Explosive, Blast Fragmentation
 Armor: 1cm   Component: 48hp
-Blast Radius: 40 m</LongDescription>
+Blast Radius: 40 m
+
+Body Integrity: 10 
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
       <Cost>2</Cost>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
       <TemplateKey>9b9e8e22-c31f-4898-b828-b7e4e825c5ba</TemplateKey>
@@ -1181,8 +1182,8 @@ Blast Radius: 40 m</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.335452676</A>
-              <B>0.6645473</B>
+              <A>0.6657874</A>
+              <B>0.3342126</B>
               <C>0</C>
             </BalanceValues>
           </InstalledComponent>

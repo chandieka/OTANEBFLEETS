@@ -7,7 +7,7 @@
   <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
 A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scout corvette.  You'll need to get in extremely close to make use of the destroyers' beams, but they can also deliver a punch from a distance with their missile complement.</Description>
-  <SortOverrideOrder>6</SortOverrideOrder>
+  <SortOverrideOrder xsi:nil="true" />
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -139,7 +139,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>12</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>4znP_s3JUkCk5z_8QcFMKQ</MagazineKey>
@@ -149,7 +149,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>U__yY1f26E6F4ReTizMpLw</MagazineKey>
                 <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>2</Quantity>
+                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -316,7 +316,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>12</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>4znP_s3JUkCk5z_8QcFMKQ</MagazineKey>
@@ -326,7 +326,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>U__yY1f26E6F4ReTizMpLw</MagazineKey>
                 <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>2</Quantity>
+                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -493,7 +493,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>11</Quantity>
+                <Quantity>9</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>4znP_s3JUkCk5z_8QcFMKQ</MagazineKey>
@@ -503,7 +503,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>U__yY1f26E6F4ReTizMpLw</MagazineKey>
                 <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>2</Quantity>
+                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -630,6 +630,7 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 54cm   Component: 960hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 30 
 Programming Time: 8 s
@@ -713,21 +714,22 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#FF2525&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
 
-178 m/s for 6,104 m, top speed in 1.7 s
+264 m/s for 2,563 m, top speed in 1.6 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
 Armor: 123cm   Component: 5,040hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
-Body Integrity: 110 
-Programming Time: 6 s
+Body Integrity: 160 
+Programming Time: 3 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 250 % (&lt;color=#4CFF72&gt;+150%&lt;/color&gt;)
 Boost-Phase Turn Rate: 200 % (&lt;color=#4CFF72&gt;+100%&lt;/color&gt;)
 Failure Rate: 0 %</LongDescription>
-      <Cost>11</Cost>
+      <Cost>12</Cost>
       <BodyKey>Stock/SGT-3 Body</BodyKey>
       <TemplateKey>3ccf279c-9f6f-4f45-ae95-87aebf36b729</TemplateKey>
       <BaseColor>

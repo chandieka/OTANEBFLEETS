@@ -2,8 +2,9 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name> Objective 4 Vietcong 4</Name>
   <Version>3</Version>
-  <TotalPoints>3000</TotalPoints>
+  <TotalPoints>3024</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -612,4 +613,5 @@
       <TemplateMissileTypes />
     </Ship>
   </Ships>
+  <MissileTypes />
 </Fleet>
