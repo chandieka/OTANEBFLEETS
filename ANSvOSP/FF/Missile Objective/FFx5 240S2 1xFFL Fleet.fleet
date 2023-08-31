@@ -101,7 +101,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200R Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -200,7 +200,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200R Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -314,7 +314,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200R Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -434,7 +434,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200R Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -543,7 +543,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200R Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -570,6 +570,7 @@
       <Key>fac23e5c-2ab9-40dd-9cfd-542f583d292d</Key>
       <Name>Foamy Ban</Name>
       <Cost>260</Cost>
+      <Callsign>ACAP</Callsign>
       <Number>1243</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -666,6 +667,7 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 60cm   Component: 1,200hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 30 
 Programming Time: 8 s
@@ -762,6 +764,7 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 27cm   Component: 238hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 10 
 Programming Time: 6 s

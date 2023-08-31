@@ -511,9 +511,9 @@
       <InitialFormation>
         <GuideKey>6d669755-7315-4298-8896-9d342b84858c</GuideKey>
         <RelativePosition>
-          <x>-30.5534954</x>
-          <y>0</y>
-          <z>-0.269989</z>
+          <x>-30.3372574</x>
+          <y>31.6504822</y>
+          <z>-0.344177246</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
@@ -842,9 +842,9 @@
       <InitialFormation>
         <GuideKey>6d669755-7315-4298-8896-9d342b84858c</GuideKey>
         <RelativePosition>
-          <x>-30.4805145</x>
-          <y>29.53917</y>
-          <z>-0.4567871</z>
+          <x>-30.63015</x>
+          <y>0</y>
+          <z>0.400215149</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
@@ -1018,7 +1018,7 @@ Targeting Modes:
 Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Backup Seeker(s): HOME-ON-JAM (&lt;color=#4CFF72&gt;RADAR&lt;/color&gt; JAMMING Signals Only)
 
-300 m/s for 11,665 m, top speed in 2.1 s
+300 m/s for 11,653 m, top speed in 2.1 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -1095,8 +1095,8 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.750829935</A>
-              <B>0.24917005</B>
+              <A>0.7515524</A>
+              <B>0.248447612</B>
               <C>0</C>
             </BalanceValues>
           </InstalledComponent>
