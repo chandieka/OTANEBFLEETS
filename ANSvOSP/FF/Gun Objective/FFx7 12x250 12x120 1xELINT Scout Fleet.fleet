@@ -4,6 +4,7 @@
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -74,7 +75,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -189,7 +190,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -314,7 +315,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -439,7 +440,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -564,7 +565,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -689,7 +690,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -814,7 +815,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM280 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -954,6 +955,7 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 27cm   Component: 238hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 10 
 Programming Time: 6 s
