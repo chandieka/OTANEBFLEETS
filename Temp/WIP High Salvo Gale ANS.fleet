@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>WIP High Salvo Gale ANS</Name>
   <Version>3</Version>
-  <TotalPoints>2882</TotalPoints>
+  <TotalPoints>2997</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>63122e0e-3b8e-4bf0-9a11-d0119e8b65d9</Key>
       <Name>Nasty Tread</Name>
-      <Cost>436</Cost>
+      <Cost>473</Cost>
       <Callsign>Missile Sensor</Callsign>
       <Number>89</Number>
       <SymbolOption>0</SymbolOption>
@@ -24,14 +24,14 @@
               <MagSaveData>
                 <MagazineKey>SWoixJW8GUmjZjdELOullg</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>15</Quantity>
+                <Quantity>22</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
-          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
+          <ComponentName>Stock/ES22 'Pinard' Electronic Support Module</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
@@ -49,6 +49,10 @@
               <y>3</y>
             </ConfiguredSize>
           </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
@@ -101,7 +105,7 @@
       <SaveID xsi:nil="true" />
       <Key>79aa710d-f500-486f-b8d5-ac5f6a791c48</Key>
       <Name>Drunk Names</Name>
-      <Cost>431</Cost>
+      <Cost>444</Cost>
       <Callsign>Missile EW ECM</Callsign>
       <Number>616</Number>
       <SymbolOption>0</SymbolOption>
@@ -133,6 +137,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/Mk61 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -152,7 +160,23 @@
           <Key>lorATFhkTkeZQYThYOHazg</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>VQK7GZe5O0igKSPWrUUnPQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7u009TEGPEmTx_LM003-cA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>O411o3Gyxk6TM-a80aedVQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -178,12 +202,14 @@
             <string>PDKmGfvpykODc3XHDQ7WBw</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="spot">
-          <MemberKeys />
-        </WepGroup>
         <WepGroup Name="Spot">
           <MemberKeys>
             <string>WwMGqYiU7E6lp7ID47phqA</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -201,7 +227,7 @@
       <SaveID xsi:nil="true" />
       <Key>d2d0d250-26b0-4588-9e9d-3b403b1db853</Key>
       <Name>Bum Skit</Name>
-      <Cost>431</Cost>
+      <Cost>444</Cost>
       <Callsign>Missile EW ECM</Callsign>
       <Number>501</Number>
       <SymbolOption>0</SymbolOption>
@@ -233,6 +259,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/Mk61 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -252,7 +282,23 @@
           <Key>lorATFhkTkeZQYThYOHazg</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>y0CLHM2mFE2kNOLNT4C1Eg</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mLXCZUpbzkSUlqMoFG8kRA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>vg8i_iBYt02vzd7I8jS5lw</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -273,9 +319,6 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="spot">
-          <MemberKeys />
-        </WepGroup>
         <WepGroup Name="EW">
           <MemberKeys>
             <string>WwMGqYiU7E6lp7ID47phqA</string>
@@ -284,6 +327,11 @@
         <WepGroup Name="Spot">
           <MemberKeys>
             <string>PDKmGfvpykODc3XHDQ7WBw</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -301,7 +349,7 @@
       <SaveID xsi:nil="true" />
       <Key>0f057a6b-d17d-44cc-a45d-1438e91fdc03</Key>
       <Name>Like Mural</Name>
-      <Cost>396</Cost>
+      <Cost>409</Cost>
       <Callsign>Missile PD</Callsign>
       <Number>46</Number>
       <SymbolOption>0</SymbolOption>
@@ -333,6 +381,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/Mk61 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -358,6 +410,21 @@
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>10000</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>v9w_J8VNpk-hmuTZKAjXVA</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7W1rpnqCkE6m2oYC87bgtA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>epvo2b_GY0a9stzZH65m_w</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -378,7 +445,13 @@
           <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <InitialFormation>
         <GuideKey>63122e0e-3b8e-4bf0-9a11-d0119e8b65d9</GuideKey>
         <RelativePosition>
@@ -393,7 +466,7 @@
       <SaveID xsi:nil="true" />
       <Key>ccf35041-f651-4fdc-923f-20ae4706bcbb</Key>
       <Name>Downy Whiff</Name>
-      <Cost>396</Cost>
+      <Cost>409</Cost>
       <Callsign>Missile PD</Callsign>
       <Number>1000</Number>
       <SymbolOption>0</SymbolOption>
@@ -425,6 +498,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/Mk61 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -450,6 +527,21 @@
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>10000</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>2xT5LbcZ20KzPOtOXzvVVA</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>fv0sBoQN_0qIWELhbREG3w</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>oux7mzWreEKpO2HCzRlZYw</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -470,7 +562,13 @@
           <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <InitialFormation>
         <GuideKey>63122e0e-3b8e-4bf0-9a11-d0119e8b65d9</GuideKey>
         <RelativePosition>
@@ -485,7 +583,7 @@
       <SaveID xsi:nil="true" />
       <Key>e63bdad3-906f-42d2-a2cc-30a4dc98680e</Key>
       <Name>Happy Bloat</Name>
-      <Cost>396</Cost>
+      <Cost>409</Cost>
       <Callsign>Missile PD</Callsign>
       <Number>990</Number>
       <SymbolOption>0</SymbolOption>
@@ -517,6 +615,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/Mk61 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -542,6 +644,21 @@
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>10000</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>FOvgIP1x_Uiq95RmXY1gTg</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>GSBFM5-9Tk2mPsSETM9i8g</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>9yNQWBB3ok-8MLhiqINnYw</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -562,7 +679,13 @@
           <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <InitialFormation>
         <GuideKey>63122e0e-3b8e-4bf0-9a11-d0119e8b65d9</GuideKey>
         <RelativePosition>
@@ -577,7 +700,7 @@
       <SaveID xsi:nil="true" />
       <Key>0222bc98-799a-42f6-a361-552d94a06d50</Key>
       <Name>Oaten Monk</Name>
-      <Cost>396</Cost>
+      <Cost>409</Cost>
       <Callsign>Missile PD</Callsign>
       <Number>893</Number>
       <SymbolOption>0</SymbolOption>
@@ -609,6 +732,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/Mk61 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -634,6 +761,21 @@
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>10000</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>znPpGt_snkqYOsYnWFnhPQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>aMbAQ50fOEmOzlfMuXFBQg</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>D5FuvD1dU0C7cNARqilk3g</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -654,7 +796,13 @@
           <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <InitialFormation>
         <GuideKey>63122e0e-3b8e-4bf0-9a11-d0119e8b65d9</GuideKey>
         <RelativePosition>
