@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>LN 288S2 YB FFL Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>2999</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>84ed6b80-c10b-4813-bed3-aaeae10d79e0</Key>
       <Name>Big Rod</Name>
-      <Cost>2899</Cost>
+      <Cost>2900</Cost>
       <Callsign>Missile Arsenal</Callsign>
       <Number>1294</Number>
       <SymbolOption>0</SymbolOption>
@@ -107,6 +107,11 @@
                 <MagazineKey>HHBqOcWJ8U2zBXHAIIJkxg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-222 Red AW</MunitionKey>
                 <Quantity>79</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TsmsdzOaXUaugE-KIlO8NQ</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>1</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
