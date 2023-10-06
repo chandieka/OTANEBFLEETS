@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Cohort Fleet</Name>
+  <Name>Cohort 1 Fleet</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>5af15688-a7be-4c33-afa0-aeafedc20c82</Key>
       <Name>Worn Lip</Name>
-      <Cost>1480</Cost>
+      <Cost>1485</Cost>
       <Callsign>G1</Callsign>
       <Number>1402</Number>
       <SymbolOption>0</SymbolOption>
@@ -30,7 +30,7 @@
         </HullSocket>
         <HullSocket>
           <Key>lYEQo4jJvEGxRqJa2MB25A</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9qreGP2Iw0KwuloNpNFTSg</Key>
@@ -38,7 +38,7 @@
         </HullSocket>
         <HullSocket>
           <Key>v9Sqa5DcCkibdi29AkakNg</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>3MoeYUx1HUS6xNDBMsssig</Key>
@@ -78,7 +78,7 @@
               <MagSaveData>
                 <MagazineKey>9Z7CtmlI5kekphMJKsJWnQ</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>1850</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>w7SIps1Eeku804ZebwG5ow</MagazineKey>
@@ -184,7 +184,7 @@
       <SaveID xsi:nil="true" />
       <Key>fa9cdfe0-066d-4724-936c-8a8349404ca5</Key>
       <Name>Bush Clank</Name>
-      <Cost>1520</Cost>
+      <Cost>1515</Cost>
       <Callsign>G1</Callsign>
       <Number>622</Number>
       <SymbolOption>0</SymbolOption>
@@ -204,7 +204,7 @@
         </HullSocket>
         <HullSocket>
           <Key>lYEQo4jJvEGxRqJa2MB25A</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9qreGP2Iw0KwuloNpNFTSg</Key>
@@ -212,7 +212,7 @@
         </HullSocket>
         <HullSocket>
           <Key>v9Sqa5DcCkibdi29AkakNg</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>3MoeYUx1HUS6xNDBMsssig</Key>
@@ -252,7 +252,7 @@
               <MagSaveData>
                 <MagazineKey>9Z7CtmlI5kekphMJKsJWnQ</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>1850</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>w7SIps1Eeku804ZebwG5ow</MagazineKey>
@@ -288,10 +288,6 @@
         </HullSocket>
         <HullSocket>
           <Key>2xmOS4ns_EaMYjBXrrhhig</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>y1xLixKUzUSKT7Nz7aUkLQ</Key>
           <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>

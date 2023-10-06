@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>FFx7 10x250 10x120 RDER FFL Fleet</Name>
+  <Name>WIP 34</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
@@ -8,11 +8,11 @@
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>bb01712f-8759-4188-ad42-141e339683ee</Key>
-      <Name>Boon Limbo</Name>
-      <Cost>410</Cost>
+      <Key>b6664c47-d032-4db9-a876-8eac8511bf80</Key>
+      <Name>Murky Mass</Name>
+      <Cost>426</Cost>
       <Callsign>Sensor PD</Callsign>
-      <Number>1215</Number>
+      <Number>848</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
@@ -22,19 +22,14 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>a7_udx2PyESAxHf8WtSkMQ</MagazineKey>
+                <MagazineKey>ynutuVnayEit7_fNi1q8gQ</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>20</Quantity>
+                <Quantity>16</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>RNoItAPFHUSIuueIh4iz3w</MagazineKey>
+                <MagazineKey>A_h2zM53LkSmAJ4O3tMi2A</MagazineKey>
                 <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>10</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>sUNp5wesD0CRJLFgbRQbEw</MagazineKey>
-                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
-                <Quantity>15</Quantity>
+                <Quantity>5</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -45,11 +40,11 @@
         </HullSocket>
         <HullSocket>
           <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>D3zoB0PetEC973iUck_mNQ</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
@@ -71,13 +66,7 @@
           <Key>lorATFhkTkeZQYThYOHazg</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>BjRR5rwnk0et0sp-pMJHpg</MagazineKey>
-                <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -101,38 +90,49 @@
           <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="EW R 1">
+          <MemberKeys>
+            <string>gkfIwYzn7kGhG6MW9uxBmw</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW R 2">
+          <MemberKeys>
+            <string>D3zoB0PetEC973iUck_mNQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>8d6ee744-c212-416f-8ef1-9c2dc7d557b3</Key>
-      <Name>Cheap Stir</Name>
-      <Cost>410</Cost>
-      <Callsign>EW PD</Callsign>
-      <Number>1484</Number>
+      <Key>dbf0605f-ddfa-408c-b15f-f8419b0abd45</Key>
+      <Name>Alert Poppy</Name>
+      <Cost>453</Cost>
+      <Callsign>GUN PD</Callsign>
+      <Number>533</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
         <HullSocket>
           <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
+          <ComponentName>Stock/Mk95 'Sarissa' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
+          <ComponentName>Stock/Mk95 'Sarissa' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>Stock/Mk64 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>D3zoB0PetEC973iUck_mNQ</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>Stock/Mk64 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>98N-YI_1WUOs--qPYlt-7g</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6Tzo7268MEqgyFxnGvLKUg</Key>
@@ -152,9 +152,24 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>iU61GE37y0mRnx2KLrO_7A</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>750</Quantity>
+                <MagazineKey>mZo7VXOgOEKfk2tGwAlJ_Q</MagazineKey>
+                <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>okG-3ceeVk6rT96XJIussA</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>WQ2srxMGbkaIxt_Xxb_TWg</MagazineKey>
+                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>vZUmCMjuIkiawpflQga75w</MagazineKey>
+                <MunitionKey>Stock/15mm Sandshot</MunitionKey>
+                <Quantity>400</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -169,7 +184,11 @@
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
-          <ComponentName>Stock/Actively Cooled Amplifiers</ComponentName>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>p-m7ijS6ukuqzuBT5NE_lA</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>foApM84hT0GpEw4GaFv38w</Key>
@@ -177,34 +196,30 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="EW 1">
+        <WepGroup Name="M-Cannon">
           <MemberKeys>
             <string>gkfIwYzn7kGhG6MW9uxBmw</string>
-          </MemberKeys>
-        </WepGroup>
-        <WepGroup Name="EW 2">
-          <MemberKeys>
             <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>bb01712f-8759-4188-ad42-141e339683ee</GuideKey>
+        <GuideKey>b6664c47-d032-4db9-a876-8eac8511bf80</GuideKey>
         <RelativePosition>
-          <x>30.5146141</x>
+          <x>-30.1689758</x>
           <y>0</y>
-          <z>0.19770813</z>
+          <z>0.210449219</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>1aef3067-12d1-4361-8a43-247688691b49</Key>
-      <Name>Hasty Nest</Name>
-      <Cost>389</Cost>
+      <Key>80440945-4cad-407b-a286-dfcaf7c98b0a</Key>
+      <Name>Mimic Tank</Name>
+      <Cost>383</Cost>
       <Callsign>GUN</Callsign>
-      <Number>738</Number>
+      <Number>848</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
@@ -246,34 +261,34 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>xe4DljPHXEy0VCPgDv3U_A</MagazineKey>
+                <MagazineKey>UUrYGmXvUkGmXEqejZNPLg</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SmCtX9qkrUa95mqRkq-rKA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>-KLGxqN5tUa3X7dNefCHbw</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mZo7VXOgOEKfk2tGwAlJ_Q</MagazineKey>
                 <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>PJjTjSc8-USB7EYU1omVLQ</MagazineKey>
+                <MagazineKey>okG-3ceeVk6rT96XJIussA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>JoMNWvqgD0y_bSfPDKgQgA</MagazineKey>
+                <MagazineKey>WQ2srxMGbkaIxt_Xxb_TWg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Sexpn6PN6kSIBedRBMGtkw</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NBPMnpFeIEW9hwqzYz0j6A</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UbjPDRxZz0yY3o-p3YEL2g</MagazineKey>
-                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
-                <Quantity>800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -300,36 +315,36 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>PDKmGfvpykODc3XHDQ7WBw</string>
+            <string>WwMGqYiU7E6lp7ID47phqA</string>
+          </MemberKeys>
+        </WepGroup>
         <WepGroup Name="M-Cannon">
           <MemberKeys>
             <string>gkfIwYzn7kGhG6MW9uxBmw</string>
             <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>WwMGqYiU7E6lp7ID47phqA</string>
-            <string>PDKmGfvpykODc3XHDQ7WBw</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>bb01712f-8759-4188-ad42-141e339683ee</GuideKey>
+        <GuideKey>b6664c47-d032-4db9-a876-8eac8511bf80</GuideKey>
         <RelativePosition>
-          <x>-30.192625</x>
+          <x>29.9490623</x>
           <y>0</y>
-          <z>-0.6410217</z>
+          <z>0.246665955</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>0e22f927-7f95-428a-bf3b-47bf051b932a</Key>
-      <Name>Far Zit</Name>
-      <Cost>389</Cost>
+      <Key>e355985a-1423-4566-ba35-6f7bced3b38c</Key>
+      <Name>Moved Afro</Name>
+      <Cost>383</Cost>
       <Callsign>GUN</Callsign>
-      <Number>1372</Number>
+      <Number>468</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
@@ -371,34 +386,34 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>xe4DljPHXEy0VCPgDv3U_A</MagazineKey>
+                <MagazineKey>UUrYGmXvUkGmXEqejZNPLg</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SmCtX9qkrUa95mqRkq-rKA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>-KLGxqN5tUa3X7dNefCHbw</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mZo7VXOgOEKfk2tGwAlJ_Q</MagazineKey>
                 <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>PJjTjSc8-USB7EYU1omVLQ</MagazineKey>
+                <MagazineKey>okG-3ceeVk6rT96XJIussA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>JoMNWvqgD0y_bSfPDKgQgA</MagazineKey>
+                <MagazineKey>WQ2srxMGbkaIxt_Xxb_TWg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Sexpn6PN6kSIBedRBMGtkw</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NBPMnpFeIEW9hwqzYz0j6A</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UbjPDRxZz0yY3o-p3YEL2g</MagazineKey>
-                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
-                <Quantity>800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -425,36 +440,36 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>PDKmGfvpykODc3XHDQ7WBw</string>
+            <string>WwMGqYiU7E6lp7ID47phqA</string>
+          </MemberKeys>
+        </WepGroup>
         <WepGroup Name="M-Cannon">
           <MemberKeys>
             <string>gkfIwYzn7kGhG6MW9uxBmw</string>
             <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>WwMGqYiU7E6lp7ID47phqA</string>
-            <string>PDKmGfvpykODc3XHDQ7WBw</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>bb01712f-8759-4188-ad42-141e339683ee</GuideKey>
+        <GuideKey>b6664c47-d032-4db9-a876-8eac8511bf80</GuideKey>
         <RelativePosition>
-          <x>-16.4151421</x>
-          <y>26.22853</y>
-          <z>-0.232757568</z>
+          <x>-15.86523</x>
+          <y>26.2073669</y>
+          <z>0.364784241</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>ec7fa93c-e171-49b0-a286-0b08e03d912e</Key>
-      <Name>Naval Audio</Name>
-      <Cost>389</Cost>
+      <Key>d2d3cc73-cd3d-44eb-8450-6fbb55784399</Key>
+      <Name>Alone Ride</Name>
+      <Cost>383</Cost>
       <Callsign>GUN</Callsign>
-      <Number>690</Number>
+      <Number>1420</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
@@ -496,34 +511,34 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>xe4DljPHXEy0VCPgDv3U_A</MagazineKey>
+                <MagazineKey>UUrYGmXvUkGmXEqejZNPLg</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SmCtX9qkrUa95mqRkq-rKA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>-KLGxqN5tUa3X7dNefCHbw</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mZo7VXOgOEKfk2tGwAlJ_Q</MagazineKey>
                 <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>PJjTjSc8-USB7EYU1omVLQ</MagazineKey>
+                <MagazineKey>okG-3ceeVk6rT96XJIussA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>JoMNWvqgD0y_bSfPDKgQgA</MagazineKey>
+                <MagazineKey>WQ2srxMGbkaIxt_Xxb_TWg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Sexpn6PN6kSIBedRBMGtkw</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NBPMnpFeIEW9hwqzYz0j6A</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UbjPDRxZz0yY3o-p3YEL2g</MagazineKey>
-                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
-                <Quantity>800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -550,36 +565,36 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>PDKmGfvpykODc3XHDQ7WBw</string>
+            <string>WwMGqYiU7E6lp7ID47phqA</string>
+          </MemberKeys>
+        </WepGroup>
         <WepGroup Name="M-Cannon">
           <MemberKeys>
             <string>gkfIwYzn7kGhG6MW9uxBmw</string>
             <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>WwMGqYiU7E6lp7ID47phqA</string>
-            <string>PDKmGfvpykODc3XHDQ7WBw</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>bb01712f-8759-4188-ad42-141e339683ee</GuideKey>
+        <GuideKey>b6664c47-d032-4db9-a876-8eac8511bf80</GuideKey>
         <RelativePosition>
-          <x>16.0126648</x>
-          <y>25.9731216</y>
-          <z>0.269454956</z>
+          <x>15.3221245</x>
+          <y>26.5197754</y>
+          <z>0.251449585</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>d89e2ddf-947c-44ec-869e-7b1c0ab6b789</Key>
-      <Name>Jazzy Irony</Name>
-      <Cost>389</Cost>
+      <Key>9295fb4d-0475-477f-bb78-1d398f606234</Key>
+      <Name>Keyed Pie</Name>
+      <Cost>383</Cost>
       <Callsign>GUN</Callsign>
-      <Number>1397</Number>
+      <Number>630</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
@@ -621,34 +636,34 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>xe4DljPHXEy0VCPgDv3U_A</MagazineKey>
+                <MagazineKey>UUrYGmXvUkGmXEqejZNPLg</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SmCtX9qkrUa95mqRkq-rKA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>-KLGxqN5tUa3X7dNefCHbw</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mZo7VXOgOEKfk2tGwAlJ_Q</MagazineKey>
                 <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>PJjTjSc8-USB7EYU1omVLQ</MagazineKey>
+                <MagazineKey>okG-3ceeVk6rT96XJIussA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>JoMNWvqgD0y_bSfPDKgQgA</MagazineKey>
+                <MagazineKey>WQ2srxMGbkaIxt_Xxb_TWg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Sexpn6PN6kSIBedRBMGtkw</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NBPMnpFeIEW9hwqzYz0j6A</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UbjPDRxZz0yY3o-p3YEL2g</MagazineKey>
-                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
-                <Quantity>800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -675,36 +690,36 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>PDKmGfvpykODc3XHDQ7WBw</string>
+            <string>WwMGqYiU7E6lp7ID47phqA</string>
+          </MemberKeys>
+        </WepGroup>
         <WepGroup Name="M-Cannon">
           <MemberKeys>
             <string>gkfIwYzn7kGhG6MW9uxBmw</string>
             <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>WwMGqYiU7E6lp7ID47phqA</string>
-            <string>PDKmGfvpykODc3XHDQ7WBw</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>bb01712f-8759-4188-ad42-141e339683ee</GuideKey>
+        <GuideKey>b6664c47-d032-4db9-a876-8eac8511bf80</GuideKey>
         <RelativePosition>
-          <x>-15.96566</x>
-          <y>-25.86444</y>
-          <z>0.02696991</z>
+          <x>-15.997385</x>
+          <y>-25.9579315</y>
+          <z>-0.161552429</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>2af6c0c1-688e-4802-bf33-3ac576daf4da</Key>
-      <Name>Mod Loner</Name>
-      <Cost>389</Cost>
+      <Key>c8865e93-560c-4fde-b83a-895cb4e992ba</Key>
+      <Name>Tidal Story</Name>
+      <Cost>383</Cost>
       <Callsign>GUN</Callsign>
-      <Number>31</Number>
+      <Number>1198</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
       <SocketMap>
@@ -746,34 +761,34 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>xe4DljPHXEy0VCPgDv3U_A</MagazineKey>
+                <MagazineKey>UUrYGmXvUkGmXEqejZNPLg</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SmCtX9qkrUa95mqRkq-rKA</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>-KLGxqN5tUa3X7dNefCHbw</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mZo7VXOgOEKfk2tGwAlJ_Q</MagazineKey>
                 <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>PJjTjSc8-USB7EYU1omVLQ</MagazineKey>
+                <MagazineKey>okG-3ceeVk6rT96XJIussA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>JoMNWvqgD0y_bSfPDKgQgA</MagazineKey>
+                <MagazineKey>WQ2srxMGbkaIxt_Xxb_TWg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Sexpn6PN6kSIBedRBMGtkw</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NBPMnpFeIEW9hwqzYz0j6A</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>800</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UbjPDRxZz0yY3o-p3YEL2g</MagazineKey>
-                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
-                <Quantity>800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -800,55 +815,51 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
+        <WepGroup Name="S-Cannon">
+          <MemberKeys>
+            <string>PDKmGfvpykODc3XHDQ7WBw</string>
+            <string>WwMGqYiU7E6lp7ID47phqA</string>
+          </MemberKeys>
+        </WepGroup>
         <WepGroup Name="M-Cannon">
           <MemberKeys>
             <string>gkfIwYzn7kGhG6MW9uxBmw</string>
             <string>D3zoB0PetEC973iUck_mNQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>WwMGqYiU7E6lp7ID47phqA</string>
-            <string>PDKmGfvpykODc3XHDQ7WBw</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>bb01712f-8759-4188-ad42-141e339683ee</GuideKey>
+        <GuideKey>b6664c47-d032-4db9-a876-8eac8511bf80</GuideKey>
         <RelativePosition>
-          <x>16.0082378</x>
-          <y>-25.575264</y>
-          <z>0.410812378</z>
+          <x>15.4885769</x>
+          <y>-26.1598511</y>
+          <z>-0.29801178</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>858b766a-6792-4143-afb0-3ddfa02e6b96</Key>
-      <Name>West Links</Name>
-      <Cost>235</Cost>
+      <Key>1e922f7f-4564-411f-88ec-dbee4d261ab6</Key>
+      <Name>Paved Grid</Name>
+      <Cost>206</Cost>
       <Callsign>Elint Scout A</Callsign>
-      <Number>750</Number>
+      <Number>86</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
       <SocketMap>
-        <HullSocket>
-          <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
-          <ComponentName>Stock/ES22 'Pinard' Electronic Support Module</ComponentName>
-        </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
           <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>ffPYw2Gmw0my1Ysps8wcLw</MagazineKey>
+                <MagazineKey>fsHuRf8yjkqgYsQBRkGwmQ</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>6</Quantity>
+                <Quantity>5</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>imI-rtUu_0q--TSwHIINOg</MagazineKey>
+                <MagazineKey>Eo7k96IneUCng0NqTB0-iQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-111 Pew Pew</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -869,9 +880,9 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>GUjmx3_-mU-PFCwQ4xRlFg</MagazineKey>
+                <MagazineKey>_XfSdPFgV0a1YrsdQm0LIw</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>6000</Quantity>
+                <Quantity>10000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
