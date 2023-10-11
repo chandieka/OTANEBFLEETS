@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>FFL5 30HKP HALF HALF 2FFL Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>2997</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>75b58901-bb11-48d4-a41a-d5ac57f4ea9c</Key>
       <Name>It's just a Raines</Name>
-      <Cost>555</Cost>
+      <Cost>558</Cost>
       <Callsign>Missile ECM</Callsign>
       <Number>238</Number>
       <SymbolOption>0</SymbolOption>
@@ -50,7 +50,7 @@
               <MagSaveData>
                 <MagazineKey>PmzKIqvxHEK1rH-fCArvbw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>19</Quantity>
+                <Quantity>22</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
