@@ -42,16 +42,7 @@
         </HullSocket>
         <HullSocket>
           <Key>0J9pyeFp6U6KMEAXiuNHHw</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>_uIEjFcQPk6q895KoIxgUQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>15</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mP5XoHZ3Wk-DsFk3YLAxzg</Key>
@@ -77,7 +68,7 @@
               <MagSaveData>
                 <MagazineKey>aaRFl2b31E6UBO2q1zlCYw</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>1500</Quantity>
+                <Quantity>1250</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Cp4mKUeQAUGdBecTZTIIyg</MagazineKey>
@@ -128,6 +119,10 @@
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>c2zMLaokmU6GUJMYfS3N_Q</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>t3_3a8clbky2DQa0g_ODgg</Key>
           <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
         </HullSocket>
@@ -154,6 +149,11 @@
             <string>60X-7VSlxUq6Qas-KwszMA</string>
             <string>lQ7GplJ1ikW0K_QhXK7GvA</string>
             <string>iJzzxinSN0uJIjrt9M3aGA</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Flood">
+          <MemberKeys>
+            <string>0J9pyeFp6U6KMEAXiuNHHw</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>

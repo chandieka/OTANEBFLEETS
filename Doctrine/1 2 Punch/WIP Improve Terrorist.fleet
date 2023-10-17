@@ -10,8 +10,8 @@
       <SaveID xsi:nil="true" />
       <Key>9d0c2d49-b6dd-4a0d-8c46-47853a106a01</Key>
       <Name>North Tour</Name>
-      <Cost>434</Cost>
-      <Callsign>T1-B LRT</Callsign>
+      <Cost>462</Cost>
+      <Callsign>T1-Decoy LRT</Callsign>
       <Number>846</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -34,9 +34,9 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>rZgGqo3sEEG0xO5JYa_TtA</MagazineKey>
+                <MagazineKey>Aazo8hAemkWVqWAmYZK_FA</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>14</Quantity>
+                <Quantity>17</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -83,10 +83,6 @@
           <ComponentName>Stock/Sundrive Racing Pro</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
-          <ComponentName>Stock/Track Correlator</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>v7vnexI1xUemaSmSkn0QNA</Key>
           <ComponentName>Stock/Track Correlator</ComponentName>
         </HullSocket>
@@ -105,7 +101,7 @@
       <SaveID xsi:nil="true" />
       <Key>17cae1f5-1ad4-4914-8534-c88c41e9b44c</Key>
       <Name>Most Larva</Name>
-      <Cost>199</Cost>
+      <Cost>215</Cost>
       <Callsign>EW 1</Callsign>
       <Number>745</Number>
       <SymbolOption>0</SymbolOption>
@@ -117,27 +113,21 @@
         </HullSocket>
         <HullSocket>
           <Key>fbAgHM9u302peFMSC0TidQ</Key>
-          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
+          <ComponentName>Stock/J15 Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>rbZhGCN7UUWcgLsNZkZXIA</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>wDWAeeoAK0mAx3hbF1tMlA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>XO4j3phqj0WQmW3iFFZuEw</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>300</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -150,13 +140,27 @@
         </HullSocket>
         <HullSocket>
           <Key>-harMwD0o0OExuMqT63fTQ</Key>
-          <ComponentName>Stock/BW800-R Drive</ComponentName>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>zUeDN4FpYEyyWHIhTIgZFg</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="EW">
+        <WepGroup Name="EW TOP">
           <MemberKeys>
             <string>3mlCA6C6m0GI3wONZK_aqg</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW BOT">
+          <MemberKeys>
+            <string>fbAgHM9u302peFMSC0TidQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Iluminator">
+          <MemberKeys>
+            <string>rbZhGCN7UUWcgLsNZkZXIA</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -174,7 +178,7 @@
       <SaveID xsi:nil="true" />
       <Key>4036e131-7c93-4d56-95e0-78d61a69bd24</Key>
       <Name>Late Tale</Name>
-      <Cost>199</Cost>
+      <Cost>215</Cost>
       <Callsign>EW 2</Callsign>
       <Number>55</Number>
       <SymbolOption>0</SymbolOption>
@@ -186,27 +190,21 @@
         </HullSocket>
         <HullSocket>
           <Key>fbAgHM9u302peFMSC0TidQ</Key>
-          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
+          <ComponentName>Stock/J15 Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>rbZhGCN7UUWcgLsNZkZXIA</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>wDWAeeoAK0mAx3hbF1tMlA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>VtksuRvUOkO3-4vK8IsHQw</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>300</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -219,13 +217,27 @@
         </HullSocket>
         <HullSocket>
           <Key>-harMwD0o0OExuMqT63fTQ</Key>
-          <ComponentName>Stock/BW800-R Drive</ComponentName>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>zUeDN4FpYEyyWHIhTIgZFg</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="EW">
+        <WepGroup Name="EW TOP">
           <MemberKeys>
             <string>3mlCA6C6m0GI3wONZK_aqg</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW BOT">
+          <MemberKeys>
+            <string>fbAgHM9u302peFMSC0TidQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Iluminator">
+          <MemberKeys>
+            <string>rbZhGCN7UUWcgLsNZkZXIA</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -243,7 +255,7 @@
       <SaveID xsi:nil="true" />
       <Key>99d69cde-cffc-40cf-bc8d-6c04a3ee0fda</Key>
       <Name>Tasty Freon</Name>
-      <Cost>388</Cost>
+      <Cost>438</Cost>
       <Callsign>T2-A</Callsign>
       <Number>357</Number>
       <SymbolOption>0</SymbolOption>
@@ -348,7 +360,7 @@
       <SaveID xsi:nil="true" />
       <Key>7640e8af-c134-4bd0-8cd6-5e233f7973b1</Key>
       <Name>Numb Crux</Name>
-      <Cost>358</Cost>
+      <Cost>318</Cost>
       <Callsign>T3-A</Callsign>
       <Number>1107</Number>
       <SymbolOption>0</SymbolOption>
@@ -453,7 +465,7 @@
       <SaveID xsi:nil="true" />
       <Key>6b1c8309-0971-49bd-9ac4-f70c0449b937</Key>
       <Name>Solid Table</Name>
-      <Cost>358</Cost>
+      <Cost>318</Cost>
       <Callsign>T4-A</Callsign>
       <Number>1072</Number>
       <SymbolOption>0</SymbolOption>
@@ -558,7 +570,7 @@
       <SaveID xsi:nil="true" />
       <Key>da7f39ba-f680-4c4c-9ac7-193fb22a6e2c</Key>
       <Name>Slack West</Name>
-      <Cost>348</Cost>
+      <Cost>308</Cost>
       <Callsign>T5-A</Callsign>
       <Number>1128</Number>
       <SymbolOption>0</SymbolOption>
@@ -659,8 +671,8 @@
       <SaveID xsi:nil="true" />
       <Key>ac96111c-a8dc-4f22-bbed-015713b4189a</Key>
       <Name>Proud Pasta</Name>
-      <Cost>368</Cost>
-      <Callsign>T6-B</Callsign>
+      <Cost>418</Cost>
+      <Callsign>T6-Decoy</Callsign>
       <Number>1132</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -760,8 +772,8 @@
       <SaveID xsi:nil="true" />
       <Key>3627b9ff-5014-411b-aefd-33a793c5b95e</Key>
       <Name>Risky Steel</Name>
-      <Cost>348</Cost>
-      <Callsign>T7-B</Callsign>
+      <Cost>308</Cost>
+      <Callsign>T7-Decoy</Callsign>
       <Number>1293</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -862,16 +874,21 @@
     <MissileTemplate>
       <Designation>SGT-300</Designation>
       <Nickname>Spark</Nickname>
-      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - NONE</Description>
-      <LongDescription>The SGT-300 Spark is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver no payload.  It homes in on its target using a Semi-Active Radar seeker.
+      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGT-300 Spark is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
 
 Control Method: DIRECT
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-220 m/s for 9,117 m, top speed in 1.5 s
+220 m/s for 5,548 m, top speed in 1.5 s
 Terminal Maneuvers: None
+
+Contact Fuze, High Explosive, Shaped
+Armor: 114cm   Component: 4,320hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 160 
 Programming Time: 3 s
@@ -880,19 +897,19 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>13</Cost>
+      <Cost>18</Cost>
       <BodyKey>Stock/SGT-3 Body</BodyKey>
       <TemplateKey>d4ec604d-a36a-4391-8182-28625126a96e</TemplateKey>
       <BaseColor>
-        <r>0.2627451</r>
-        <g>0.2627451</g>
-        <b>0.2627451</b>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>0.8509804</r>
-        <g>0.3647059</g>
-        <b>0.180392161</b>
+        <r>-7.07805157E-08</r>
+        <g>-1.94542942E-08</g>
+        <b>-0</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
@@ -907,6 +924,9 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
@@ -926,13 +946,13 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>1</Size>
+          <Size>6</Size>
           <InstalledComponent>
-            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>13</Size>
+          <Size>8</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
@@ -947,14 +967,14 @@ Failure Rate: 0 %</LongDescription>
     <MissileTemplate>
       <Designation>SGT-300</Designation>
       <Nickname>Jab</Nickname>
-      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt;/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGT-300 Jab is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
+      <LongDescription>The SGT-300 Jab is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
 
 Control Method: DIRECT
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
-Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
 220 m/s for 5,544 m, top speed in 1.5 s
 Terminal Maneuvers: None
@@ -971,35 +991,36 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>11</Cost>
+      <Cost>7</Cost>
       <BodyKey>Stock/SGT-3 Body</BodyKey>
       <TemplateKey>31a4c12c-7619-4f12-9565-afc688547011</TemplateKey>
       <BaseColor>
-        <r>0.2627451</r>
-        <g>0.2627451</g>
-        <b>0.2627451</b>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>0.8509804</r>
-        <g>0.3647059</g>
-        <b>0.180392161</b>
+        <r>-7.07805157E-08</r>
+        <g>-1.94542942E-08</g>
+        <b>-0</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="CommandSeekerSettings">
-            <ComponentKey>Stock/Command Receiver</ComponentKey>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Validation</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
             <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
