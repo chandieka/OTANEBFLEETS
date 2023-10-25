@@ -238,7 +238,7 @@ Targeting Modes:
 Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-250 m/s for 17,797 m, top speed in 1.8 s
+201 m/s for 19,056 m, top speed in 1.4 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -292,7 +292,7 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="CruiseGuidanceSettings">
             <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
@@ -314,8 +314,8 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.497948766</A>
-              <B>0.502051234</B>
+              <A>0.252971053</A>
+              <B>0.747028947</B>
               <C>0</C>
             </BalanceValues>
           </InstalledComponent>
@@ -334,7 +334,7 @@ Targeting Modes:
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-250 m/s for 17,786 m, top speed in 1.8 s
+200 m/s for 19,057 m, top speed in 1.4 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -388,7 +388,7 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="CruiseGuidanceSettings">
             <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
@@ -410,9 +410,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.499079168</A>
-              <B>0.500920832</B>
-              <C>0</C>
+              <A>0.249092966</A>
+              <B>0.750907063</B>
+              <C>-2.98023224E-08</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

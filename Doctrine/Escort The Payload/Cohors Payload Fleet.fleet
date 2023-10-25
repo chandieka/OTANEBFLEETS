@@ -117,7 +117,7 @@
       <SaveID xsi:nil="true" />
       <Key>12988654-0102-4617-b120-e3d333bc3150</Key>
       <Name>Toxic Shove</Name>
-      <Cost>200</Cost>
+      <Cost>205</Cost>
       <Number>631</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Shuttle</HullType>
@@ -132,7 +132,7 @@
         </HullSocket>
         <HullSocket>
           <Key>rbZhGCN7UUWcgLsNZkZXIA</Key>
-          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
+          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
@@ -167,6 +167,11 @@
         <WepGroup Name="EW BOT">
           <MemberKeys>
             <string>fbAgHM9u302peFMSC0TidQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Ilum">
+          <MemberKeys>
+            <string>rbZhGCN7UUWcgLsNZkZXIA</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -184,7 +189,7 @@
       <SaveID xsi:nil="true" />
       <Key>59a69320-7f62-46ae-aee2-9fc73be47de6</Key>
       <Name>Bandy Lots</Name>
-      <Cost>200</Cost>
+      <Cost>205</Cost>
       <Number>376</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Shuttle</HullType>
@@ -199,7 +204,7 @@
         </HullSocket>
         <HullSocket>
           <Key>rbZhGCN7UUWcgLsNZkZXIA</Key>
-          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
+          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
@@ -236,6 +241,11 @@
             <string>fbAgHM9u302peFMSC0TidQ</string>
           </MemberKeys>
         </WepGroup>
+        <WepGroup Name="Ilum">
+          <MemberKeys>
+            <string>rbZhGCN7UUWcgLsNZkZXIA</string>
+          </MemberKeys>
+        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
         <GuideKey>3871ba52-6788-4d90-a7a2-c482426ae912</GuideKey>
@@ -251,7 +261,7 @@
       <SaveID xsi:nil="true" />
       <Key>cf1aced0-9d15-4a6a-b352-cc58305ad84e</Key>
       <Name>Doped Track</Name>
-      <Cost>863</Cost>
+      <Cost>853</Cost>
       <Number>833</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Bulk Feeder</HullType>
@@ -307,10 +317,6 @@
               </MagSaveData>
             </Load>
           </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>TTM8O-MUDky06__LwvSo8w</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>rGVFgJ8GyUePoRkz33c1sw</Key>

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>WIP ADADA</Name>
+  <Version>3</Version>
+  <TotalPoints>4700</TotalPoints>
+  <FactionKey>Stock/Protectorate</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>5db877ac-8b92-470f-a1f0-af20b3ea67fe</Key>
+      <Name>Leaky Yell</Name>
+      <Cost>4250</Cost>
+      <Number>1417</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Container Hauler</HullType>
+      <HullConfig xsi:type="RandomHullConfiguration">
+        <PrimaryStructure>
+          <SegmentConfiguration>
+            <Key>2d7c228c-cbd6-425e-9590-a2f8ae8d5915</Key>
+            <Dressing>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>18a6bc15-58b0-479c-82c3-1722768f033d</Key>
+            <Dressing>
+              <int>2</int>
+              <int>2</int>
+              <int>0</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>674e0528-3e0c-48e4-8e5e-d3a559869104</Key>
+            <Dressing>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+        </PrimaryStructure>
+        <SecondaryStructure>
+          <SecondaryStructureConfig>
+            <Key>9ebcea74-e9c9-45b3-b616-e12e3f491024</Key>
+            <Segment>2</Segment>
+            <SnapPoint>0</SnapPoint>
+          </SecondaryStructureConfig>
+        </SecondaryStructure>
+        <HullTint>
+          <r>0.728289366</r>
+          <g>0.728289366</g>
+          <b>0.728289366</b>
+          <a>1</a>
+        </HullTint>
+        <TextureVariation>
+          <x>499.802551</x>
+          <y>151.95813</y>
+          <z>785.4752</z>
+        </TextureVariation>
+      </HullConfig>
+      <SocketMap>
+        <HullSocket>
+          <Key>44SMwZSbRkOQyQmJ458Y1Q</Key>
+          <ComponentName>Stock/Container Bank Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>gwQZdl8d_UubJ9VYlU7NCA</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8wfeQGpmfEm5VZd5DOC8-g</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>eY843G_WYEC1HWM6WDA5Ug</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>uLHDwjLFekuYaY3h0JwZoQ</Key>
+          <ComponentName>Stock/Container Bank Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>UfPokQSkuEiD1vRv23blvQ</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8n25UX5aLkqIrCpgNSBYRw</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>2r5h1KSaDEGT2SeB6GOWJQ</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>F-nHNZm4Z0WZMJakJAwlPw</Key>
+          <ComponentName>Stock/Container Bank Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>7nlUofp4ykuu0iDubeZheg</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SuNzuMa7q0isaG6ML_BMPQ</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VkODw--0zk-K4FkajpPjwQ</Key>
+          <ComponentName>Stock/Container Bank Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>7DCFOko8-kSpNbNRJqLskg</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>e8OtXXUDWka71DWBMH_eDQ</MagazineKey>
+                <MunitionKey>$MODMIS$/CM-400 Container</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>QhdtovcTk0WSpMAUsBIF6Q</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>OE8qVccIYEGwfvJXsiFgoA</Key>
+          <ComponentName>Stock/Strike Planning Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>UAmAj39M3E2zPnVXF46kZA</Key>
+          <ComponentName>Stock/Strike Planning Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>yxnQxeuUHUO22pm-LQu4Cg</Key>
+          <ComponentName>Stock/BW1500 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>_uEQzHKRzEqqIqa1c8wJcw</Key>
+          <ComponentName>Stock/Sundrive Racing Pro</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>M0ewvimLKU2vXoznZNDoYQ</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>cXpBal32p0-R2pA6hN056w</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>OY726V7rAUKDR92MQM7gnQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>SmUC0Jc9FEuCeKc_ZJMxIg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>664c8aa3-f14e-47c4-ae79-51752d3cdbd2</Key>
+      <Name>Sworn Want</Name>
+      <Cost>180</Cost>
+      <Number>1149</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Shuttle</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>3mlCA6C6m0GI3wONZK_aqg</Key>
+          <ComponentName>Stock/J15 Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>fbAgHM9u302peFMSC0TidQ</Key>
+          <ComponentName>Stock/J15 Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>bInyh5AAt0y_m-3UaI8Ysw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-harMwD0o0OExuMqT63fTQ</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>798c8df5-aa8b-436c-8238-0e450502ad2b</Key>
+      <Name>Woody Brail</Name>
+      <Cost>180</Cost>
+      <Number>372</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Shuttle</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>3mlCA6C6m0GI3wONZK_aqg</Key>
+          <ComponentName>Stock/J15 Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>fbAgHM9u302peFMSC0TidQ</Key>
+          <ComponentName>Stock/J15 Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>bInyh5AAt0y_m-3UaI8Ysw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-harMwD0o0OExuMqT63fTQ</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>f8eebf32-0190-4fcf-84b7-720c810ba4bc</Key>
+      <Name>Salty Breed</Name>
+      <Cost>90</Cost>
+      <Number>14</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Shuttle</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>bInyh5AAt0y_m-3UaI8Ysw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-harMwD0o0OExuMqT63fTQ</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>zUeDN4FpYEyyWHIhTIgZFg</Key>
+          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>CM-400</Designation>
+      <Nickname>Container</Nickname>
+      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt; - HE SHAPED</Description>
+      <LongDescription>The CM-400 Container is a size 3 direct guidance missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
+
+Control Method: DIRECT
+Targeting Modes:
+	&lt;b&gt;&lt;color=#FF2525&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
+
+170 m/s for 24,746 m, top speed in 2.5 s
+Terminal Maneuvers: None
+
+Contact Fuze, High Explosive, Shaped
+Armor: 142cm   Component: 6,720hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 150 
+Programming Time: 20 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>12</Cost>
+      <BodyKey>Stock/CM-4 Body</BodyKey>
+      <TemplateKey>8e44013e-4d6f-4c9e-865e-297875c34f36</TemplateKey>
+      <BaseColor>
+        <r>0</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>7</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>7</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.447933018</A>
+              <B>0.486561835</B>
+              <C>0.06550515</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>
