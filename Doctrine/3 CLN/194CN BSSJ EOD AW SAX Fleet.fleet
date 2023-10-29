@@ -65,17 +65,17 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>PsOk2OwPVkGdLXx9GusTvw</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-401 Red Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick AR</MunitionKey>
                 <Quantity>22</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>-LZccvXvA0aaQ_EME-yf2g</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Green Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick AW</MunitionKey>
                 <Quantity>22</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>u6JzWHJ9B06SU9Y5z9yLxQ</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Suprise Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick J</MunitionKey>
                 <Quantity>13</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -92,17 +92,17 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>mzwg3M033k2NWmpy-KsjUQ</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Green Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick AW</MunitionKey>
                 <Quantity>22</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6rsjtYJOokOp-Vb3grL2lA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-401 Red Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick AR</MunitionKey>
                 <Quantity>22</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>_FOw8rAGeEeFQrFw7r6lEA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Suprise Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick J</MunitionKey>
                 <Quantity>13</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -119,12 +119,12 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>VL2GpXb1HUeVGL-IorLJjw</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Grey Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
                 <Quantity>20</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>94-Kqmr0FEiKBKQAzi21MA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Grey Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
                 <Quantity>20</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -141,12 +141,12 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>cYGlHnqRkka4ipodvyGURg</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Grey Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
                 <Quantity>20</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>OAItbg7r60WZ1YCvQSNvuA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Grey Brick</MunitionKey>
+                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
                 <Quantity>20</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -210,10 +210,10 @@
   </Ships>
   <MissileTypes>
     <MissileTemplate>
-      <Designation>CM-401</Designation>
-      <Nickname>Red Brick</Nickname>
+      <Designation>CM-400</Designation>
+      <Nickname>Brick AR</Nickname>
       <Description>CRUISE - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-401 Red Brick is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+      <LongDescription>The CM-400 Brick AR is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
@@ -307,20 +307,20 @@ Failure Rate: 0 %</LongDescription>
     </MissileTemplate>
     <MissileTemplate>
       <Designation>CM-400</Designation>
-      <Nickname>Grey Brick</Nickname>
+      <Nickname>Brick ED</Nickname>
       <Description>CRUISE - PSV(&lt;color=#53FFFF&gt;EO&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-400 Grey Brick is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Passive Electro-Optical seeker.
+      <LongDescription>The CM-400 Brick ED is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Passive Electro-Optical seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: PASSIVE (&lt;color=#53FFFF&gt;EO&lt;/color&gt;)
 
-175 m/s for 30,493 m, top speed in 2.4 s
+175 m/s for 27,702 m, top speed in 2.4 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
-Armor: 93cm   Component: 2,880hp
+Armor: 107cm   Component: 3,840hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -379,13 +379,13 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>3</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>11</Size>
+          <Size>10</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
@@ -399,20 +399,20 @@ Failure Rate: 0 %</LongDescription>
     </MissileTemplate>
     <MissileTemplate>
       <Designation>CM-400</Designation>
-      <Nickname>Suprise Brick</Nickname>
+      <Nickname>Brick J</Nickname>
       <Description>CRUISE - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-400 Suprise Brick is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker.
+      <LongDescription>The CM-400 Brick J is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 
-175 m/s for 31,738 m, top speed in 2.5 s
+175 m/s for 28,833 m, top speed in 2.5 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
-Armor: 93cm   Component: 2,880hp
+Armor: 107cm   Component: 3,840hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -471,13 +471,13 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>3</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>11</Size>
+          <Size>10</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
@@ -491,9 +491,9 @@ Failure Rate: 0 %</LongDescription>
     </MissileTemplate>
     <MissileTemplate>
       <Designation>CM-400</Designation>
-      <Nickname>Green Brick</Nickname>
+      <Nickname>Brick AW</Nickname>
       <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-400 Green Brick is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
+      <LongDescription>The CM-400 Brick AW is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
@@ -501,11 +501,11 @@ Targeting Modes:
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Backup Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-175 m/s for 30,587 m, top speed in 2.4 s
+175 m/s for 27,787 m, top speed in 2.4 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
-Armor: 93cm   Component: 2,880hp
+Armor: 107cm   Component: 3,840hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -567,13 +567,13 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>3</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>11</Size>
+          <Size>10</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
