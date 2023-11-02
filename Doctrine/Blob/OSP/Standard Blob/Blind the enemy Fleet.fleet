@@ -215,6 +215,14 @@
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>82c519d7-bfa1-4af9-99a6-efb9c1b7fb0f</GuideKey>
+        <RelativePosition>
+          <x>30.10067</x>
+          <y>0</y>
+          <z>0.5611725</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
@@ -265,6 +273,14 @@
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>82c519d7-bfa1-4af9-99a6-efb9c1b7fb0f</GuideKey>
+        <RelativePosition>
+          <x>-0.1412468</x>
+          <y>30.179306</y>
+          <z>-0.15397644</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
@@ -315,6 +331,14 @@
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>82c519d7-bfa1-4af9-99a6-efb9c1b7fb0f</GuideKey>
+        <RelativePosition>
+          <x>-30.0010262</x>
+          <y>0</y>
+          <z>-0.284225464</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>
@@ -365,6 +389,14 @@
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>82c519d7-bfa1-4af9-99a6-efb9c1b7fb0f</GuideKey>
+        <RelativePosition>
+          <x>0.09836483</x>
+          <y>-30.2514343</y>
+          <z>-0.232070923</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
     <Ship>

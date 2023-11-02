@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>194CN BSSJ EOD AW SAX Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>3000</TotalPoints>
+  <TotalPoints>3090</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -207,6 +207,35 @@
       <WeaponGroups />
       <TemplateMissileTypes />
     </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>5179fdef-5499-4c18-8b4f-e6ea1c3557d4</Key>
+      <Name>Total Then</Name>
+      <Cost>90</Cost>
+      <Number>616</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Shuttle</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>bInyh5AAt0y_m-3UaI8Ysw</Key>
+          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-harMwD0o0OExuMqT63fTQ</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>zUeDN4FpYEyyWHIhTIgZFg</Key>
+          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
   </Ships>
   <MissileTypes>
     <MissileTemplate>
@@ -275,7 +304,7 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="CruiseGuidanceSettings">
             <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
@@ -367,7 +396,7 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="CruiseGuidanceSettings">
             <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
@@ -459,7 +488,7 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="CruiseGuidanceSettings">
             <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
@@ -555,7 +584,7 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="CruiseGuidanceSettings">
             <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
