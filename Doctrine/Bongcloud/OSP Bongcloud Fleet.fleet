@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>WIP 35</Name>
+  <Name>OSP Bongcloud Fleet</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
@@ -43,12 +43,12 @@
             <Load>
               <MagSaveData>
                 <MagazineKey>ssR-sYlAxUGFb5Vn67QJpQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SHJ</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SW</MunitionKey>
                 <Quantity>40</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ZXG218bSZUONkZKM0Z9zxw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Le Grenade HJ</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SHJ</MunitionKey>
                 <Quantity>40</Quantity>
               </MagSaveData>
             </Load>
@@ -128,12 +128,12 @@
             <Load>
               <MagSaveData>
                 <MagazineKey>ssR-sYlAxUGFb5Vn67QJpQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SHJ</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SW</MunitionKey>
                 <Quantity>40</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>B3ZNiIQVVEGQlvPqfiZJjw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Le Grenade HJ</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SHJ</MunitionKey>
                 <Quantity>40</Quantity>
               </MagSaveData>
             </Load>
@@ -217,12 +217,12 @@
             <Load>
               <MagSaveData>
                 <MagazineKey>ssR-sYlAxUGFb5Vn67QJpQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SHJ</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SW</MunitionKey>
                 <Quantity>40</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>hPGqH1qS4EiGEOKcMQkHww</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Le Grenade HJ</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-200 Le Grenade SHJ</MunitionKey>
                 <Quantity>40</Quantity>
               </MagSaveData>
             </Load>
@@ -600,9 +600,9 @@
   <MissileTypes>
     <MissileTemplate>
       <Designation>SGM-200</Designation>
-      <Nickname>Le Grenade SHJ</Nickname>
+      <Nickname>Le Grenade SW</Nickname>
       <Description>CRUISE - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
-      <LongDescription>The SGM-200 Le Grenade SHJ is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
+      <LongDescription>The SGM-200 Le Grenade SW is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
@@ -696,9 +696,9 @@ Failure Rate: 0 %</LongDescription>
     </MissileTemplate>
     <MissileTemplate>
       <Designation>SGM-200</Designation>
-      <Nickname>Le Grenade HJ</Nickname>
+      <Nickname>Le Grenade SHJ</Nickname>
       <Description>CRUISE - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/HOJ(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-200 Le Grenade HJ is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Home-on-Jam seeker.
+      <LongDescription>The SGM-200 Le Grenade SHJ is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Home-on-Jam seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
@@ -808,7 +808,15 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 27cm   Component: 238hp
 Blast Angle: 70 deg
-Damage Per Fragment: 50.0</LongDescription>
+Damage Per Fragment: 50.0
+
+Body Integrity: 10 
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
       <Cost>1</Cost>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
       <TemplateKey>1c4a374f-be1a-4353-aebf-b7366986f1ea</TemplateKey>

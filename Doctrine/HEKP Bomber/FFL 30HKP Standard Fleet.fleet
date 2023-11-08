@@ -1055,7 +1055,7 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-300 m/s for 7,064 m, top speed in 0.9 s
+300 m/s for 5,076 m, top speed in 0.7 s
 Terminal Maneuvers: None
 
 Proximity Fuze, High Explosive, Blast Fragmentation
@@ -1122,9 +1122,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.335452676</A>
-              <B>0.6645473</B>
-              <C>0</C>
+              <A>0.336187422</A>
+              <B>0.3842598</B>
+              <C>0.2795528</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
