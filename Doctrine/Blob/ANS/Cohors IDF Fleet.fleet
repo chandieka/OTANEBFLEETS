@@ -1,0 +1,919 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Cohors IDF Fleet</Name>
+  <Version>3</Version>
+  <TotalPoints>2968</TotalPoints>
+  <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>26105656-6bb2-493f-b1c0-edc616cc17cf</Key>
+      <Name>Tight Annex</Name>
+      <Cost>742</Cost>
+      <Number>462</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Raines Frigate</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>FrknY3hQXEyibxWu3NKzbQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>USts6D2likG_kbdg4vZc6A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>4vnz9zmSVUCZNlD7_nKv-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>kEV0BjLMn02mxI2qc2kbRQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>_DWITy6b-k6vakhkRgL1xw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qToyp2vuPEiPCOumP8QVlw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TDGtqtwt0EKs4FrNoomMaQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>maQGRQXBJEiVla8qn5vKgw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7v08dqgtGk2NVySv1IXr0A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>80KWfc8nS0CDomYMRNHyYw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6Tzo7268MEqgyFxnGvLKUg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>O_Y-AJc7r0alOg36rvY6MQ</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lorATFhkTkeZQYThYOHazg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>foApM84hT0GpEw4GaFv38w</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>2a614dd4-174d-40e6-b624-9cefd00b9633</Key>
+      <Name>Front Flirt</Name>
+      <Cost>742</Cost>
+      <Number>664</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Raines Frigate</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>FrknY3hQXEyibxWu3NKzbQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>USts6D2likG_kbdg4vZc6A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>4vnz9zmSVUCZNlD7_nKv-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>kEV0BjLMn02mxI2qc2kbRQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>_DWITy6b-k6vakhkRgL1xw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qToyp2vuPEiPCOumP8QVlw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TDGtqtwt0EKs4FrNoomMaQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>maQGRQXBJEiVla8qn5vKgw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7v08dqgtGk2NVySv1IXr0A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>80KWfc8nS0CDomYMRNHyYw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6Tzo7268MEqgyFxnGvLKUg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>O_Y-AJc7r0alOg36rvY6MQ</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lorATFhkTkeZQYThYOHazg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>foApM84hT0GpEw4GaFv38w</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>340297a7-5c35-4dca-9c97-f4f18032d3ac</Key>
+      <Name>Lossy Town</Name>
+      <Cost>742</Cost>
+      <Number>1480</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Raines Frigate</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>FrknY3hQXEyibxWu3NKzbQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>USts6D2likG_kbdg4vZc6A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>4vnz9zmSVUCZNlD7_nKv-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>kEV0BjLMn02mxI2qc2kbRQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>_DWITy6b-k6vakhkRgL1xw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qToyp2vuPEiPCOumP8QVlw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TDGtqtwt0EKs4FrNoomMaQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>maQGRQXBJEiVla8qn5vKgw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7v08dqgtGk2NVySv1IXr0A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>80KWfc8nS0CDomYMRNHyYw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6Tzo7268MEqgyFxnGvLKUg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>O_Y-AJc7r0alOg36rvY6MQ</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lorATFhkTkeZQYThYOHazg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>foApM84hT0GpEw4GaFv38w</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>e0536318-2f56-4b19-9ecc-4ba58782cdb0</Key>
+      <Name>Icky Ram</Name>
+      <Cost>742</Cost>
+      <Number>223</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Raines Frigate</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>FrknY3hQXEyibxWu3NKzbQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>USts6D2likG_kbdg4vZc6A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>4vnz9zmSVUCZNlD7_nKv-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>kEV0BjLMn02mxI2qc2kbRQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>_DWITy6b-k6vakhkRgL1xw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qToyp2vuPEiPCOumP8QVlw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TDGtqtwt0EKs4FrNoomMaQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>maQGRQXBJEiVla8qn5vKgw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7v08dqgtGk2NVySv1IXr0A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block III</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>80KWfc8nS0CDomYMRNHyYw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6Tzo7268MEqgyFxnGvLKUg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>O_Y-AJc7r0alOg36rvY6MQ</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lorATFhkTkeZQYThYOHazg</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>foApM84hT0GpEw4GaFv38w</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>SGM-H-300</Designation>
+      <Nickname>Atlatl</Nickname>
+      <Description>CRUISE - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGM-H-300 Atlatl is a size 3 waypoint-capable cruise missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+Control Method: CRUISE (Waypoint Capable)
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
+Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+
+Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
+Sprint: 550 m/s for 6,006 m, top speed in 0.6 s
+   Stage Trigger on Target Detection (&lt;color=#FBFF4C&gt;Direction-Only Seeker&lt;/color&gt;)
+Terminal Maneuvers: Weave
+
+Contact Fuze, High Explosive, Shaped
+Armor: 80cm   Component: 2,160hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 60 
+Programming Time: 16 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>20</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>8662ca13-547e-4b45-b54d-c796f0fde5e1</TemplateKey>
+      <BaseColor>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>-0</r>
+        <g>-7.07805157E-08</g>
+        <b>-1.02658735E-08</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CruiseGuidanceSettings">
+            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>Weave</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0</A>
+              <B>0.7348629</B>
+              <C>0.265137076</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-H-300</Designation>
+      <Nickname>Atlatl Block II</Nickname>
+      <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
+      <LongDescription>The SGM-H-300 Atlatl Block II is a size 3 waypoint-capable cruise missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
+
+Control Method: CRUISE (Waypoint Capable)
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+
+Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
+Sprint: 550 m/s for 6,193 m, top speed in 0.6 s
+   Stage Trigger at 5,000m from Target (&lt;color=#FBFF4C&gt;Limited By Seeker Range&lt;/color&gt;)
+Terminal Maneuvers: Weave
+
+Contact Fuze, High Explosive, Shaped
+Armor: 80cm   Component: 2,160hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 60 
+Programming Time: 16 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>19</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>79d0be15-e8cb-4b9c-aa40-db743b511820</TemplateKey>
+      <BaseColor>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>-0</r>
+        <g>-7.07805157E-08</g>
+        <b>-1.02658735E-08</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Validation</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CruiseGuidanceSettings">
+            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>Weave</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0</A>
+              <B>0.771364868</B>
+              <C>0.228635132</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-H-300</Designation>
+      <Nickname>Atlatl Block III</Nickname>
+      <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
+      <LongDescription>The SGM-H-300 Atlatl Block III is a size 3 waypoint-capable cruise missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
+
+Control Method: CRUISE (Waypoint Capable)
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+
+Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
+Sprint: 550 m/s for 5,848 m, top speed in 0.7 s
+   Stage Trigger at 4,780m from Target
+Terminal Maneuvers: None
+
+Contact Fuze, High Explosive, Shaped
+Armor: 88cm   Component: 2,592hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 60 
+Programming Time: 16 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>29</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>7faab506-c4a9-4ce2-b5eb-fedd689ffd8b</TemplateKey>
+      <BaseColor>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>-0</r>
+        <g>-7.07805157E-08</g>
+        <b>-1.02658735E-08</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Validation</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CruiseGuidanceSettings">
+            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0</A>
+              <B>1</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>

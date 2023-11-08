@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>2812fc5c-b2ab-4e89-951d-2180ca65b178</Key>
       <Name>Your Mom</Name>
-      <Cost>542</Cost>
+      <Cost>549</Cost>
       <Callsign>Mama Feeder</Callsign>
       <Number>808</Number>
       <SymbolOption>0</SymbolOption>
@@ -68,7 +68,7 @@
               <MagSaveData>
                 <MagazineKey>YiNXcAEds0uM2oTu2O8gzA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Swatter</MunitionKey>
-                <Quantity>16</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Uoco34Ecm0Stt768WLGDdA</MagazineKey>
@@ -83,16 +83,12 @@
           <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>rGVFgJ8GyUePoRkz33c1sw</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>_hUvj899GkWP0bnjDN1ODw</Key>
           <ComponentName>Stock/Berthing</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Intelligence Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9K_1ZNCgFESrvaoQMOH3yw</Key>
@@ -130,7 +126,7 @@
       <SaveID xsi:nil="true" />
       <Key>b56e1af8-ba10-45d4-854d-7ceff8276a2a</Key>
       <Name>Quiet Coral</Name>
-      <Cost>223</Cost>
+      <Cost>220</Cost>
       <Callsign>EWR-1</Callsign>
       <Number>281</Number>
       <SymbolOption>0</SymbolOption>
@@ -144,7 +140,7 @@
               <MagSaveData>
                 <MagazineKey>f2A_AwFYO0SE6YP8y2XM7g</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>8</Quantity>
+                <Quantity>5</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -198,7 +194,7 @@
       <SaveID xsi:nil="true" />
       <Key>007b97b6-5d47-47b5-be1b-b9c8cf776cfa</Key>
       <Name>Fried Filet</Name>
-      <Cost>223</Cost>
+      <Cost>219</Cost>
       <Callsign>EWR-2</Callsign>
       <Number>137</Number>
       <SymbolOption>0</SymbolOption>
@@ -210,9 +206,9 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>f2A_AwFYO0SE6YP8y2XM7g</MagazineKey>
+                <MagazineKey>Xw6lVeIaVU2p-MI7J0S0Bg</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>8</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>

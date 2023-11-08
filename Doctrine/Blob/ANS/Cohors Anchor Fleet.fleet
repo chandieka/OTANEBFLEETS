@@ -27,12 +27,12 @@
               <MagSaveData>
                 <MagazineKey>t2kb2J_T4E2ACopzdZ4oyQ</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>15</Quantity>
+                <Quantity>17</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>x-XSi3DYfEO0tb1_Ogbd5g</MagazineKey>
                 <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>6</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -43,7 +43,7 @@
         </HullSocket>
         <HullSocket>
           <Key>lYEQo4jJvEGxRqJa2MB25A</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9qreGP2Iw0KwuloNpNFTSg</Key>
@@ -51,7 +51,7 @@
         </HullSocket>
         <HullSocket>
           <Key>v9Sqa5DcCkibdi29AkakNg</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>3MoeYUx1HUS6xNDBMsssig</Key>
@@ -187,6 +187,16 @@
           <MemberKeys>
             <string>whDP9rtbukKsocnrqnqaLQ</string>
             <string>N7yRYYUuG0uOzd5aufgViA</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="FLOOD R">
+          <MemberKeys>
+            <string>v9Sqa5DcCkibdi29AkakNg</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="FLOOD L">
+          <MemberKeys>
+            <string>lYEQo4jJvEGxRqJa2MB25A</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
