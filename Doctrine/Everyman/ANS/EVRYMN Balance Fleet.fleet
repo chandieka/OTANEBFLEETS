@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>519208ad-6dff-490e-bdb0-6deadcce4009</Key>
       <Name>Stern Jazz</Name>
-      <Cost>1081</Cost>
+      <Cost>1038</Cost>
       <Callsign>Mama CL</Callsign>
       <Number>145</Number>
       <SymbolOption>0</SymbolOption>
@@ -31,23 +31,6 @@
         <HullSocket>
           <Key>rX6hes7UqkyHjEyKbFaWTQ</Key>
           <ComponentName>Stock/Mk64 Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>BRMwuusKC02YrbFXRrrNzA</Key>
-          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
-          <ComponentData xsi:type="ResizableCellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>WzTt97HKs0Op0LMzYcEZfg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Bubble</MunitionKey>
-                <Quantity>4</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>3</y>
-            </ConfiguredSize>
-          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>vO1oPhlSuUih_cdAZk3Hqg</Key>
@@ -106,12 +89,12 @@
               <MagSaveData>
                 <MagazineKey>4JE_1xegF0GlU7GZan-ujA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>700</Quantity>
+                <Quantity>550</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>qdW0yiJxS0-Ge1UtiyAlpg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>700</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>yf_Ms7iJSkyb-I-ZXpT6yg</MagazineKey>
@@ -179,7 +162,7 @@
       <SaveID xsi:nil="true" />
       <Key>541b5d66-7be3-4cb4-9809-fb5d0a921729</Key>
       <Name>Great North</Name>
-      <Cost>334</Cost>
+      <Cost>305</Cost>
       <Callsign>EW Sensor</Callsign>
       <Number>836</Number>
       <SymbolOption>0</SymbolOption>
@@ -188,24 +171,6 @@
         <HullSocket>
           <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
           <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>iiaRZ7_ApUG8xoXuD9gS9Q</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>16</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>KmUKI0rETUmOdi549NovXw</MagazineKey>
-                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -371,7 +336,7 @@
       <SaveID xsi:nil="true" />
       <Key>c34bfd63-7b0d-432d-9a85-7639c93de73d</Key>
       <Name>Near Krill</Name>
-      <Cost>255</Cost>
+      <Cost>273</Cost>
       <Callsign>Battle Capper A</Callsign>
       <Number>1183</Number>
       <SymbolOption>0</SymbolOption>
@@ -385,7 +350,7 @@
               <MagSaveData>
                 <MagazineKey>8D4w57N4ykWJ4ZyNJUJwzg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Red AR</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -396,7 +361,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk62 Cannon</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -411,16 +376,6 @@
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
-              <MagSaveData>
-                <MagazineKey>3LZgoBvwc0akl1VAmLUAQQ</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Ezhciv8hJEeyKw9qmTVTyg</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
               <MagSaveData>
                 <MagazineKey>jixwtXeh3kmqMkNaOaxtFQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
@@ -454,20 +409,14 @@
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>Z48ot_dQfkWb6AVYjaM_gA</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
+      <WeaponGroups />
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>0bd24629-7a72-4db2-b69c-d3c12ea60660</Key>
       <Name>Acid Photo</Name>
-      <Cost>255</Cost>
+      <Cost>273</Cost>
       <Callsign>Battle Capper B</Callsign>
       <Number>45</Number>
       <SymbolOption>0</SymbolOption>
@@ -481,7 +430,7 @@
               <MagSaveData>
                 <MagazineKey>8D4w57N4ykWJ4ZyNJUJwzg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Red AR</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -492,7 +441,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk62 Cannon</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -507,16 +456,6 @@
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
-              <MagSaveData>
-                <MagazineKey>3LZgoBvwc0akl1VAmLUAQQ</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Ezhciv8hJEeyKw9qmTVTyg</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
               <MagSaveData>
                 <MagazineKey>jixwtXeh3kmqMkNaOaxtFQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
@@ -550,20 +489,14 @@
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>Z48ot_dQfkWb6AVYjaM_gA</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
+      <WeaponGroups />
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>0ec6c0ac-bb32-4100-91aa-06da2426baac</Key>
       <Name>Yummy Cloak</Name>
-      <Cost>255</Cost>
+      <Cost>273</Cost>
       <Callsign>Battle Capper C</Callsign>
       <Number>269</Number>
       <SymbolOption>0</SymbolOption>
@@ -577,7 +510,7 @@
               <MagSaveData>
                 <MagazineKey>8D4w57N4ykWJ4ZyNJUJwzg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Red AR</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -588,7 +521,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk62 Cannon</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -603,16 +536,6 @@
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
-              <MagSaveData>
-                <MagazineKey>3LZgoBvwc0akl1VAmLUAQQ</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Ezhciv8hJEeyKw9qmTVTyg</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
               <MagSaveData>
                 <MagazineKey>jixwtXeh3kmqMkNaOaxtFQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
@@ -646,20 +569,14 @@
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>Z48ot_dQfkWb6AVYjaM_gA</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
+      <WeaponGroups />
       <TemplateMissileTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>6b89642b-c108-449e-9411-0f96a04e9dc7</Key>
       <Name>Mini Reach</Name>
-      <Cost>255</Cost>
+      <Cost>273</Cost>
       <Callsign>Battle Capper D</Callsign>
       <Number>1072</Number>
       <SymbolOption>0</SymbolOption>
@@ -673,7 +590,7 @@
               <MagSaveData>
                 <MagazineKey>8D4w57N4ykWJ4ZyNJUJwzg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Red AR</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -684,7 +601,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk62 Cannon</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -699,16 +616,6 @@
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
-              <MagSaveData>
-                <MagazineKey>3LZgoBvwc0akl1VAmLUAQQ</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Ezhciv8hJEeyKw9qmTVTyg</MagazineKey>
-                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
               <MagSaveData>
                 <MagazineKey>jixwtXeh3kmqMkNaOaxtFQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
@@ -742,13 +649,7 @@
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="S-Cannon">
-          <MemberKeys>
-            <string>Z48ot_dQfkWb6AVYjaM_gA</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
+      <WeaponGroups />
       <TemplateMissileTypes />
     </Ship>
   </Ships>
@@ -757,20 +658,19 @@
       <AssociatedTemplateName>SGM-200 Red AR</AssociatedTemplateName>
       <Designation>SGM-200</Designation>
       <Nickname>Red AR</Nickname>
-      <Description>DIRECT - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-200 Red AR is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+      <Description>DIRECT - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGM-200 Red AR is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
 
 Control Method: DIRECT
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
-Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-350 m/s for 6,562 m, top speed in 2.5 s
-Terminal Maneuvers: None
+250 m/s for 9,694 m, top speed in 1.3 s
+Terminal Maneuvers: Weave
 
 Contact Fuze, High Explosive, Shaped
-Armor: 60cm   Component: 1,200hp
+Armor: 54cm   Component: 960hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -781,7 +681,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
+      <Cost>6</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>8b343912-f5a5-401c-b9e6-8d93f3acb438</TemplateKey>
       <BaseColor>
@@ -799,15 +699,6 @@ Failure Rate: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
-            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <TargetType>All</TargetType>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
           <InstalledComponent xsi:type="ActiveSeekerSettings">
             <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
@@ -817,12 +708,15 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
@@ -833,105 +727,19 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>5</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>5</Size>
+          <Size>6</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>1</A>
-              <B>0</B>
-              <C>0</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-    <MissileTemplate>
-      <AssociatedTemplateName>SGM-200 Bubble</AssociatedTemplateName>
-      <Designation>SGM-200</Designation>
-      <Nickname>Bubble</Nickname>
-      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - NONE</Description>
-      <LongDescription>The SGM-200 Bubble is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver no payload.  It homes in on its target using a Semi-Active Radar seeker.
-
-Control Method: DIRECT
-Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-
-150 m/s for 26,920 m, top speed in 1.1 s
-Terminal Maneuvers: None
-
-Body Integrity: 30 
-Programming Time: 8 s
-Radar Signature Bonus: 100 %
-Boost-Phase Duration: 3 s
-Boost-Phase Strafe: 100 %
-Boost-Phase Turn Rate: 100 %
-Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
-      <BodyKey>Stock/SGM-2 Body</BodyKey>
-      <TemplateKey>acc4e773-e1d8-4232-94f4-26f7c69054da</TemplateKey>
-      <BaseColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <TargetSizeMask>12</TargetSizeMask>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Self-Screening Jammer</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>9</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0</A>
-              <B>1</B>
-              <C>0</C>
+              <A>0.498726517</A>
+              <B>0.1610385</B>
+              <C>0.340235</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

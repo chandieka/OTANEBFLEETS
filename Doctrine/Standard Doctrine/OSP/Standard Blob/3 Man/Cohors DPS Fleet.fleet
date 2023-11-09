@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>43f9aaa5-3110-4714-ba98-dec4281cf48c</Key>
       <Name>Wiry Saber</Name>
-      <Cost>874</Cost>
+      <Cost>882</Cost>
       <Callsign>G1-A</Callsign>
       <Number>869</Number>
       <SymbolOption>0</SymbolOption>
@@ -83,9 +83,22 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>L9vv3gVCr0St01U_0_BUIQ</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Line Ship)</MunitionKey>
+                <MagazineKey>Tfnh_X7AYESyQ1bf3ZPlVQ</MagazineKey>
+                <MunitionKey>Stock/Decoy Container (Clipper)</MunitionKey>
                 <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>Qu8oWzhkvEq6CVMJnMH6ig</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>5</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -102,22 +115,22 @@
               <MagSaveData>
                 <MagazineKey>ORV0T1t8bU-FBzZlZpesyw</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -144,7 +157,7 @@
         </HullSocket>
         <HullSocket>
           <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>FVcPIcV_00eu62NQQK3oLg</Key>
@@ -204,7 +217,7 @@
       <SaveID xsi:nil="true" />
       <Key>b51cafd7-9902-43d8-8891-81401423f648</Key>
       <Name>Moony Hiker</Name>
-      <Cost>872</Cost>
+      <Cost>859</Cost>
       <Callsign>G2-A</Callsign>
       <Number>16</Number>
       <SymbolOption>0</SymbolOption>
@@ -272,19 +285,6 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>tcQfj6XOHUWFSAx_W0cc1A</Key>
-          <ComponentName>Stock/Container Stack Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>cESQ-WzOo0CZs6i3oOUuhw</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Line Ship)</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
           <Key>VDQhZPo-rkWkzwozat27fw</Key>
           <ComponentName>Stock/C53 Cannon</ComponentName>
         </HullSocket>
@@ -301,17 +301,17 @@
               <MagSaveData>
                 <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -338,7 +338,7 @@
         </HullSocket>
         <HullSocket>
           <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>FVcPIcV_00eu62NQQK3oLg</Key>
@@ -398,7 +398,7 @@
       <SaveID xsi:nil="true" />
       <Key>b8e48cae-a5f9-4522-8d5d-8357baadcdbe</Key>
       <Name>Firm Stub</Name>
-      <Cost>874</Cost>
+      <Cost>859</Cost>
       <Callsign>G1-B</Callsign>
       <Number>870</Number>
       <SymbolOption>0</SymbolOption>
@@ -466,19 +466,6 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>tcQfj6XOHUWFSAx_W0cc1A</Key>
-          <ComponentName>Stock/Container Stack Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>WXQTN8BvD0ai2Cp_yLspMw</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Line Ship)</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
           <Key>VDQhZPo-rkWkzwozat27fw</Key>
           <ComponentName>Stock/C53 Cannon</ComponentName>
         </HullSocket>
@@ -490,22 +477,22 @@
               <MagSaveData>
                 <MagazineKey>ORV0T1t8bU-FBzZlZpesyw</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -532,7 +519,7 @@
         </HullSocket>
         <HullSocket>
           <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>FVcPIcV_00eu62NQQK3oLg</Key>
@@ -600,7 +587,7 @@
       <SaveID xsi:nil="true" />
       <Key>b482b078-2cfb-4e9c-9cb9-d2f32f1bb9f4</Key>
       <Name>Cocky Tummy</Name>
-      <Cost>190</Cost>
+      <Cost>200</Cost>
       <Callsign>G2-EW-A</Callsign>
       <Number>64</Number>
       <SymbolOption>0</SymbolOption>
@@ -620,7 +607,7 @@
         </HullSocket>
         <HullSocket>
           <Key>wDWAeeoAK0mAx3hbF1tMlA</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>CcSXjIupV0Kw-jxaV6HpEA</Key>
@@ -661,7 +648,7 @@
       <SaveID xsi:nil="true" />
       <Key>17e6df54-50fe-4245-bc58-97ac31e4e6b1</Key>
       <Name>Dress Wring</Name>
-      <Cost>190</Cost>
+      <Cost>200</Cost>
       <Callsign>G2-EW-B</Callsign>
       <Number>1300</Number>
       <SymbolOption>0</SymbolOption>
@@ -681,7 +668,7 @@
         </HullSocket>
         <HullSocket>
           <Key>wDWAeeoAK0mAx3hbF1tMlA</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>CcSXjIupV0Kw-jxaV6HpEA</Key>
