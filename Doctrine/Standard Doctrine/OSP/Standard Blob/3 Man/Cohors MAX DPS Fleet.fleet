@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Cohors MAX DPS Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>2993</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>43f9aaa5-3110-4714-ba98-dec4281cf48c</Key>
       <Name>Wiry Saber</Name>
-      <Cost>871</Cost>
+      <Cost>874</Cost>
       <Callsign>G1-A</Callsign>
       <Number>869</Number>
       <SymbolOption>0</SymbolOption>
@@ -94,17 +94,17 @@
               <MagSaveData>
                 <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>425</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>600</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>600</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -191,7 +191,7 @@
       <SaveID xsi:nil="true" />
       <Key>b51cafd7-9902-43d8-8891-81401423f648</Key>
       <Name>Moony Hiker</Name>
-      <Cost>871</Cost>
+      <Cost>873</Cost>
       <Callsign>G2-A</Callsign>
       <Number>16</Number>
       <SymbolOption>0</SymbolOption>
@@ -280,12 +280,12 @@
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>600</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>600</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -372,7 +372,7 @@
       <SaveID xsi:nil="true" />
       <Key>b8e48cae-a5f9-4522-8d5d-8357baadcdbe</Key>
       <Name>Firm Stub</Name>
-      <Cost>871</Cost>
+      <Cost>873</Cost>
       <Callsign>G1-B</Callsign>
       <Number>870</Number>
       <SymbolOption>0</SymbolOption>
@@ -461,12 +461,12 @@
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>600</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>600</Quantity>
+                <Quantity>650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>

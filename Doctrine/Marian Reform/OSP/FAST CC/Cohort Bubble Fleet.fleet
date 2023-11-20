@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>1243bf29-0fbe-47fe-be2a-92cec4e0a7b8</Key>
       <Name>Pet Hydra</Name>
-      <Cost>1526</Cost>
+      <Cost>1528</Cost>
       <Callsign>Gun Sensor</Callsign>
       <Number>292</Number>
       <SymbolOption>0</SymbolOption>
@@ -73,12 +73,12 @@
               <MagSaveData>
                 <MagazineKey>9Ebej1pB3U-J5KDN9e1jmQ</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>275</Quantity>
+                <Quantity>287</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>GeyqdAkgckeVHBcy-V4k1Q</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>975</Quantity>
+                <Quantity>1039</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -191,7 +191,7 @@
       <SaveID xsi:nil="true" />
       <Key>c5c0f31e-90bf-4aa8-92a9-34d27b30127c</Key>
       <Name>Hired Pear</Name>
-      <Cost>1474</Cost>
+      <Cost>1472</Cost>
       <Callsign>Gun EW</Callsign>
       <Number>307</Number>
       <SymbolOption>0</SymbolOption>
@@ -225,7 +225,7 @@
               <MagSaveData>
                 <MagazineKey>yKNRO15rzUaiHQXwPa8M3g</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Bubble D</MunitionKey>
-                <Quantity>9</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -236,7 +236,7 @@
         </HullSocket>
         <HullSocket>
           <Key>rI5k7ytZH0S7yQLZnFB_nQ</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>0J9pyeFp6U6KMEAXiuNHHw</Key>
@@ -263,7 +263,7 @@
               <MagSaveData>
                 <MagazineKey>cC6EaH6ke0uvU0GbA16ykQ</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>275</Quantity>
+                <Quantity>287</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ieM4EP7c6Eynq9OYnc64bg</MagazineKey>
@@ -357,11 +357,6 @@
         <WepGroup Name="Flood">
           <MemberKeys>
             <string>0J9pyeFp6U6KMEAXiuNHHw</string>
-          </MemberKeys>
-        </WepGroup>
-        <WepGroup Name="EW">
-          <MemberKeys>
-            <string>rI5k7ytZH0S7yQLZnFB_nQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>

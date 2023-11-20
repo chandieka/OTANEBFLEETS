@@ -11,7 +11,7 @@
       <Key>ed8ec93a-55cf-4636-bfcb-77d63d2b6556</Key>
       <Name>Lofty Cloth</Name>
       <Cost>405</Cost>
-      <Callsign>Missile ECM LRT</Callsign>
+      <Callsign>T1-ILUM</Callsign>
       <Number>1087</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -136,7 +136,7 @@
       <Key>fd424634-def6-4f86-adf1-b563f08e8c13</Key>
       <Name>Slimy Tad</Name>
       <Cost>395</Cost>
-      <Callsign>Missile ECM</Callsign>
+      <Callsign>T2-ILUM</Callsign>
       <Number>918</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -274,7 +274,7 @@
       <Key>70ba0a3f-80c0-41c6-8104-b41fc2f4d8e0</Key>
       <Name>Macro Lego</Name>
       <Cost>395</Cost>
-      <Callsign>Missile ECM</Callsign>
+      <Callsign>T1-ILUM</Callsign>
       <Number>15</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -412,7 +412,7 @@
       <Key>d6700a7f-cafb-4d1a-91bd-7ffbb759d54b</Key>
       <Name>Fixed Rogue</Name>
       <Cost>430</Cost>
-      <Callsign>Missile EW</Callsign>
+      <Callsign>T1-EW</Callsign>
       <Number>24</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -550,7 +550,7 @@
       <Key>52b0cc8e-956d-49b8-a28e-022539246626</Key>
       <Name>Fizzy Baton</Name>
       <Cost>430</Cost>
-      <Callsign>Missile EW</Callsign>
+      <Callsign>T1-EW</Callsign>
       <Number>539</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -688,7 +688,7 @@
       <Key>c5d5197b-1a1a-4149-8548-b161188a0d70</Key>
       <Name>Irate Max</Name>
       <Cost>420</Cost>
-      <Callsign>Missile EW</Callsign>
+      <Callsign>T1-EW</Callsign>
       <Number>698</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -822,7 +822,7 @@
       <Key>167da799-f065-4633-8843-6e49db1cad95</Key>
       <Name>Dank Pouch</Name>
       <Cost>420</Cost>
-      <Callsign>Missile EW</Callsign>
+      <Callsign>T1-EW</Callsign>
       <Number>269</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
