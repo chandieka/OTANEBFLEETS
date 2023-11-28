@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>75b58901-bb11-48d4-a41a-d5ac57f4ea9c</Key>
       <Name>It's just a Raines</Name>
-      <Cost>560</Cost>
+      <Cost>590</Cost>
       <Callsign>Missile ECM</Callsign>
       <Number>238</Number>
       <SymbolOption>0</SymbolOption>
@@ -53,14 +53,14 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>7rM8pBmevUaCqD_PiJYCIQ</MagazineKey>
-                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
+                <MagazineKey>oe1GNcaslEK-spsVNe8t-Q</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
                 <Quantity>5</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>ycvzQ_fU_0WYexpXAZa-qA</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>5</Quantity>
+                <MagazineKey>dqTrS2kd60Wjol8R8pPUQg</MagazineKey>
+                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
+                <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -73,7 +73,7 @@
               <MagSaveData>
                 <MagazineKey>vlSn1Dxbx0yjraghk9lmXg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-101 Knife LR-3</MunitionKey>
-                <Quantity>14</Quantity>
+                <Quantity>21</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -111,7 +111,7 @@
         </HullSocket>
         <HullSocket>
           <Key>MBOvGazj6UWpt2OOy44s7w</Key>
-          <ComponentName>Stock/ES32 'Scryer' Missile ID System</ComponentName>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups />
@@ -121,7 +121,7 @@
       <SaveID xsi:nil="true" />
       <Key>8f132986-c993-49e4-b8d2-5a6b6ecfe5b9</Key>
       <Name>It's just a Raines</Name>
-      <Cost>555</Cost>
+      <Cost>585</Cost>
       <Callsign>Missile EW</Callsign>
       <Number>1393</Number>
       <SymbolOption>0</SymbolOption>
@@ -209,6 +209,10 @@
           <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
           <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
+        <HullSocket>
+          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
+        </HullSocket>
       </SocketMap>
       <WeaponGroups>
         <WepGroup Name="S-Cannon">
@@ -241,7 +245,7 @@
       <SaveID xsi:nil="true" />
       <Key>db43b493-cafa-47ce-b8e1-b53114c62967</Key>
       <Name>It's just a Raines</Name>
-      <Cost>555</Cost>
+      <Cost>585</Cost>
       <Callsign>Missile EW</Callsign>
       <Number>647</Number>
       <SymbolOption>0</SymbolOption>
@@ -329,6 +333,10 @@
           <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
           <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
+        <HullSocket>
+          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
+        </HullSocket>
       </SocketMap>
       <WeaponGroups>
         <WepGroup Name="S-Cannon">
@@ -361,7 +369,7 @@
       <SaveID xsi:nil="true" />
       <Key>9bdc0724-d454-427d-8519-1d247d5a13a3</Key>
       <Name>It's just a Raines</Name>
-      <Cost>515</Cost>
+      <Cost>545</Cost>
       <Callsign>Missile PD</Callsign>
       <Number>804</Number>
       <SymbolOption>0</SymbolOption>
@@ -458,6 +466,10 @@
           <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
+        <HullSocket>
+          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
+        </HullSocket>
       </SocketMap>
       <WeaponGroups>
         <WepGroup Name="S-Cannon">
@@ -480,7 +492,7 @@
       <SaveID xsi:nil="true" />
       <Key>2b4d6265-8e09-4e2e-a56e-c3a4cf4a5277</Key>
       <Name>It's just a Raines</Name>
-      <Cost>515</Cost>
+      <Cost>545</Cost>
       <Callsign>Missile PD</Callsign>
       <Number>639</Number>
       <SymbolOption>0</SymbolOption>
@@ -577,6 +589,10 @@
           <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
+        <HullSocket>
+          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
+        </HullSocket>
       </SocketMap>
       <WeaponGroups>
         <WepGroup Name="S-Cannon">
@@ -602,51 +618,6 @@
       <Cost>150</Cost>
       <Callsign>Scout A</Callsign>
       <Number>66</Number>
-      <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Sprinter Corvette</HullType>
-      <SocketMap>
-        <HullSocket>
-          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load />
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>4WpJyiOKVEqCwR99l47MkA</Key>
-          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
-          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
-        </HullSocket>
-      </SocketMap>
-      <WeaponGroups />
-      <TemplateMissileTypes />
-    </Ship>
-    <Ship>
-      <SaveID xsi:nil="true" />
-      <Key>38173b62-e197-452d-8143-0c6ab4c4952c</Key>
-      <Name>It's just a Raines</Name>
-      <Cost>150</Cost>
-      <Callsign>Capper</Callsign>
-      <Number>277</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
       <SocketMap>
@@ -1055,7 +1026,7 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-300 m/s for 5,076 m, top speed in 0.7 s
+300 m/s for 7,064 m, top speed in 0.9 s
 Terminal Maneuvers: None
 
 Proximity Fuze, High Explosive, Blast Fragmentation
@@ -1122,9 +1093,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.336187422</A>
-              <B>0.3842598</B>
-              <C>0.2795528</C>
+              <A>0.335452676</A>
+              <B>0.6645473</B>
+              <C>0</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

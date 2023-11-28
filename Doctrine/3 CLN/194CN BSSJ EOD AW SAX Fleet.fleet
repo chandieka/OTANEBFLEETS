@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>194CN BSSJ EOD AW SAX Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>3090</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -202,35 +202,6 @@
         <HullSocket>
           <Key>SmUC0Jc9FEuCeKc_ZJMxIg</Key>
           <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
-        </HullSocket>
-      </SocketMap>
-      <WeaponGroups />
-      <TemplateMissileTypes />
-    </Ship>
-    <Ship>
-      <SaveID xsi:nil="true" />
-      <Key>5179fdef-5499-4c18-8b4f-e6ea1c3557d4</Key>
-      <Name>Total Then</Name>
-      <Cost>90</Cost>
-      <Number>616</Number>
-      <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Shuttle</HullType>
-      <SocketMap>
-        <HullSocket>
-          <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>bInyh5AAt0y_m-3UaI8Ysw</Key>
-          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>-harMwD0o0OExuMqT63fTQ</Key>
-          <ComponentName>Stock/BW800 Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>zUeDN4FpYEyyWHIhTIgZFg</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups />
@@ -521,14 +492,14 @@ Failure Rate: 0 %</LongDescription>
     <MissileTemplate>
       <Designation>CM-400</Designation>
       <Nickname>Brick AW</Nickname>
-      <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-400 Brick AW is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
+      <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
+      <LongDescription>The CM-400 Brick AW is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-Backup Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
 175 m/s for 27,787 m, top speed in 2.4 s
 Terminal Maneuvers: None
@@ -574,7 +545,7 @@ Failure Rate: 0 %</LongDescription>
           <Size>1</Size>
           <InstalledComponent xsi:type="PassiveSeekerSettings">
             <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
+            <Mode>Validation</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
             <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
