@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>43f9aaa5-3110-4714-ba98-dec4281cf48c</Key>
       <Name>Wiry Saber</Name>
-      <Cost>882</Cost>
+      <Cost>873</Cost>
       <Callsign>G1-A</Callsign>
       <Number>869</Number>
       <SymbolOption>0</SymbolOption>
@@ -63,11 +63,11 @@
       <SocketMap>
         <HullSocket>
           <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>grYBjxIS3E--lmrqenuK8A</Key>
@@ -78,30 +78,8 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>tcQfj6XOHUWFSAx_W0cc1A</Key>
-          <ComponentName>Stock/Container Stack Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>Tfnh_X7AYESyQ1bf3ZPlVQ</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Clipper)</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
           <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>Qu8oWzhkvEq6CVMJnMH6ig</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>VDQhZPo-rkWkzwozat27fw</Key>
@@ -125,7 +103,7 @@
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>650</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
@@ -217,7 +195,7 @@
       <SaveID xsi:nil="true" />
       <Key>b51cafd7-9902-43d8-8891-81401423f648</Key>
       <Name>Moony Hiker</Name>
-      <Cost>859</Cost>
+      <Cost>863</Cost>
       <Callsign>G2-A</Callsign>
       <Number>16</Number>
       <SymbolOption>0</SymbolOption>
@@ -270,11 +248,11 @@
       <SocketMap>
         <HullSocket>
           <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>grYBjxIS3E--lmrqenuK8A</Key>
@@ -306,7 +284,7 @@
               <MagSaveData>
                 <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>650</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
@@ -398,7 +376,7 @@
       <SaveID xsi:nil="true" />
       <Key>b8e48cae-a5f9-4522-8d5d-8357baadcdbe</Key>
       <Name>Firm Stub</Name>
-      <Cost>859</Cost>
+      <Cost>864</Cost>
       <Callsign>G1-B</Callsign>
       <Number>870</Number>
       <SymbolOption>0</SymbolOption>
@@ -451,11 +429,11 @@
       <SocketMap>
         <HullSocket>
           <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>grYBjxIS3E--lmrqenuK8A</Key>

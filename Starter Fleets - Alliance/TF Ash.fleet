@@ -6,8 +6,8 @@
   <FactionKey>Stock/Alliance</FactionKey>
   <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
-A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scout corvette.  You'll need to get in extremely close to make use of the destroyers' beams, but they can also deliver a punch from a distance with their missile complement.</Description>
-  <SortOverrideOrder xsi:nil="true" />
+A close range beam brawling fleet. Consists of three beam destroyers and an ECM corvette. You'll need to get in close to make use of the destroyers' beams, but they can also deliver a punch from a distance with their missile complement. Use of jamming and/or careful ambush planning is absolutely crucial to get the destroyers to firing range.</Description>
+  <SortOverrideOrder>6</SortOverrideOrder>
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -108,19 +108,15 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
         </HullSocket>
         <HullSocket>
           <Key>fSYv4j5-eEObwJEVhoBSvg</Key>
-          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
-          <ComponentData xsi:type="ResizableCellLauncherData">
+          <ComponentName>Stock/Torpedo Turret</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>5hEvp4yrXkqe7FiiLYMw-Q</MagazineKey>
+                <MagazineKey>ms1oFCCuwUu2ltlfjdpdlg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Hail</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>3</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -139,7 +135,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>10</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>4znP_s3JUkCk5z_8QcFMKQ</MagazineKey>
@@ -285,19 +281,15 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
         </HullSocket>
         <HullSocket>
           <Key>fSYv4j5-eEObwJEVhoBSvg</Key>
-          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
-          <ComponentData xsi:type="ResizableCellLauncherData">
+          <ComponentName>Stock/Torpedo Turret</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>5hEvp4yrXkqe7FiiLYMw-Q</MagazineKey>
+                <MagazineKey>CybmMvV2tkyii7jqIJFMWw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Hail</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>3</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -316,7 +308,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>10</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>4znP_s3JUkCk5z_8QcFMKQ</MagazineKey>
@@ -462,19 +454,15 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
         </HullSocket>
         <HullSocket>
           <Key>fSYv4j5-eEObwJEVhoBSvg</Key>
-          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
-          <ComponentData xsi:type="ResizableCellLauncherData">
+          <ComponentName>Stock/Torpedo Turret</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>5hEvp4yrXkqe7FiiLYMw-Q</MagazineKey>
+                <MagazineKey>XcQxYLq1Bk6n7xI291W6yQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Hail</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>3</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -493,7 +481,7 @@ A close range beam brawling fleet.  Consists of three destroyers and an ECM/Scou
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>9</Quantity>
+                <Quantity>5</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>4znP_s3JUkCk5z_8QcFMKQ</MagazineKey>
@@ -677,6 +665,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -769,6 +758,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>FFL 30HKP Standard Fleet</Name>
+  <Name>35HKP COMMIT! Fleet</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>75b58901-bb11-48d4-a41a-d5ac57f4ea9c</Key>
       <Name>It's just a Raines</Name>
-      <Cost>538</Cost>
+      <Cost>482</Cost>
       <Callsign>B1-Leader ECM</Callsign>
       <Number>238</Number>
       <SymbolOption>0</SymbolOption>
@@ -24,17 +24,12 @@
               <MagSaveData>
                 <MagazineKey>paSyI1zp-kCQBBq5lG7UIQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AC-D</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Wy6aVdaKvUWn_1d7J_rNuQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AR-D</MunitionKey>
                 <Quantity>2</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>SxIqQPmuZkuiY5kDUv_FPA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-3 Le Dart EA-D</MunitionKey>
-                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -48,24 +43,10 @@
           <ComponentName>Stock/ES22 'Pinard' Electronic Support Module</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>ZxY9ONYz80SiLNSObvjNzQ</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>yd37mqt_nUumN1ejNTBs1Q</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>825</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -92,10 +73,6 @@
           <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
           <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
-        <HullSocket>
-          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
-          <ComponentName>Stock/ES32 'Scryer' Missile ID System</ComponentName>
-        </HullSocket>
       </SocketMap>
       <WeaponGroups />
       <TemplateMissileTypes />
@@ -104,7 +81,7 @@
       <SaveID xsi:nil="true" />
       <Key>8f132986-c993-49e4-b8d2-5a6b6ecfe5b9</Key>
       <Name>It's just a Raines</Name>
-      <Cost>542</Cost>
+      <Cost>588</Cost>
       <Callsign>B2-EW</Callsign>
       <Number>1393</Number>
       <SymbolOption>0</SymbolOption>
@@ -118,23 +95,36 @@
               <MagSaveData>
                 <MagazineKey>nBZRDPG6406dCdGFmryNGA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AC-D</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ZEE68mIYr02m0L_bpeqPFw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AR-D</MunitionKey>
                 <Quantity>2</Quantity>
               </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>A_qOwuvCtEOWOf6v6l2kig</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-3 Le Dart EA-D</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
               <x>1</x>
               <y>3</y>
             </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>0YnYagbbf068PzOLEbq9Tw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-101 Knife LR-2</MunitionKey>
+                <Quantity>20</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TQd2to8ZME20d_ouA7qr6Q</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -199,7 +189,7 @@
       <SaveID xsi:nil="true" />
       <Key>db43b493-cafa-47ce-b8e1-b53114c62967</Key>
       <Name>It's just a Raines</Name>
-      <Cost>542</Cost>
+      <Cost>587</Cost>
       <Callsign>B3-EW</Callsign>
       <Number>647</Number>
       <SymbolOption>0</SymbolOption>
@@ -213,23 +203,36 @@
               <MagSaveData>
                 <MagazineKey>GvngI98BWUChwwsmZhFLFw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AC-D</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>kFyj2yXha0W47f_rmlODUQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AR-D</MunitionKey>
                 <Quantity>2</Quantity>
               </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>dCAm5HlNsUiDY23WTaaHxQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-3 Le Dart EA-D</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
               <x>1</x>
               <y>3</y>
             </ConfiguredSize>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>abgsEGm6Qkyj_7pdrsrbsw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-101 Knife LR-2</MunitionKey>
+                <Quantity>20</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>BHp4u9w4kEOAqTCVV99ZGw</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+            </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -294,8 +297,8 @@
       <SaveID xsi:nil="true" />
       <Key>9bdc0724-d454-427d-8519-1d247d5a13a3</Key>
       <Name>It's just a Raines</Name>
-      <Cost>539</Cost>
-      <Callsign>B4-PD</Callsign>
+      <Cost>442</Cost>
+      <Callsign>B4</Callsign>
       <Number>804</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -308,17 +311,12 @@
               <MagSaveData>
                 <MagazineKey>_hNhSBMitkejAHo75NkH2Q</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AC-D</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Hl-S5AlLyEKouDNg_1AnTA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AR-D</MunitionKey>
                 <Quantity>2</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>PgTwb1HL-EGJBtLHhieYbQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-3 Le Dart EA-D</MunitionKey>
-                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -328,28 +326,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>ZxY9ONYz80SiLNSObvjNzQ</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>cuS5oJvpwkWJ7fytz1Ldyw</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>900</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -371,10 +351,6 @@
         <HullSocket>
           <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
           <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
-          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups />
@@ -392,8 +368,8 @@
       <SaveID xsi:nil="true" />
       <Key>2b4d6265-8e09-4e2e-a56e-c3a4cf4a5277</Key>
       <Name>It's just a Raines</Name>
-      <Cost>539</Cost>
-      <Callsign>B5-PD</Callsign>
+      <Cost>442</Cost>
+      <Callsign>B5</Callsign>
       <Number>639</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -406,17 +382,12 @@
               <MagSaveData>
                 <MagazineKey>1CKHFvWCN0WCori5BW8oyA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AC-D</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>JW1q4TpIX0iLQ8yn6zFy7A</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-H-3 Le Dart AR-D</MunitionKey>
                 <Quantity>2</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>9UHzywFY0E2JgDOhBSZvYg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-3 Le Dart EA-D</MunitionKey>
-                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -426,28 +397,10 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>ZxY9ONYz80SiLNSObvjNzQ</Key>
-          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>dtS-a-55qEynLdHthRzs4g</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>900</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -470,10 +423,6 @@
           <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
           <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
-        <HullSocket>
-          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
-          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
-        </HullSocket>
       </SocketMap>
       <WeaponGroups />
       <InitialFormation>
@@ -488,20 +437,34 @@
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>eb782605-3f5c-4d35-ac7e-5f9328bd426f</Key>
-      <Name>It's just a Raines</Name>
-      <Cost>150</Cost>
-      <Callsign>C-1</Callsign>
-      <Number>66</Number>
+      <Key>2edf280a-88ef-4e4c-9796-25eff4809b67</Key>
+      <Name>Inert Hurl</Name>
+      <Cost>459</Cost>
+      <Callsign>B6-AT Scout</Callsign>
+      <Number>1477</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
       <SocketMap>
         <HullSocket>
-          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load />
+          <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
+          <ComponentName>Stock/CLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>MgErjjLCmUOaSn9J5BkJFA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-3 Le Dart EA-D</MunitionKey>
+                <Quantity>4</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>3</y>
+            </ConfiguredSize>
           </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
@@ -509,7 +472,7 @@
         </HullSocket>
         <HullSocket>
           <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
@@ -521,59 +484,26 @@
         </HullSocket>
         <HullSocket>
           <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
-          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+          <ComponentName>Stock/RS41 'Spyglass' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups />
-      <TemplateMissileTypes />
-    </Ship>
-    <Ship>
-      <SaveID xsi:nil="true" />
-      <Key>4b5aa4bb-2714-48f0-a57d-edcf9635449b</Key>
-      <Name>Dark Grill</Name>
-      <Cost>150</Cost>
-      <Callsign>C-2</Callsign>
-      <Number>896</Number>
-      <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Sprinter Corvette</HullType>
-      <SocketMap>
-        <HullSocket>
-          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load />
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>4WpJyiOKVEqCwR99l47MkA</Key>
-          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
-          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
-        </HullSocket>
-      </SocketMap>
-      <WeaponGroups />
+      <InitialFormation>
+        <GuideKey>75b58901-bb11-48d4-a41a-d5ac57f4ea9c</GuideKey>
+        <RelativePosition>
+          <x>0.6539383</x>
+          <y>0</y>
+          <z>-30.0304184</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
   </Ships>
@@ -659,6 +589,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -778,6 +709,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -897,6 +829,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -929,6 +862,94 @@ Failure Rate: 0 %</LongDescription>
               <A>1</A>
               <B>0</B>
               <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <AssociatedTemplateName>SGM-101 Knife LR-2</AssociatedTemplateName>
+      <Designation>SGM-101</Designation>
+      <Nickname>Knife LR-2</Nickname>
+      <Description>DIRECT - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The SGM-101 Knife LR-2 is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+
+302 m/s for 4,425 m, top speed in 0.6 s
+Terminal Maneuvers: None
+
+Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 2cm   Component: 57hp
+Blast Radius: 40 m
+
+Body Integrity: 10 
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>2</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>881cff48-e43c-47aa-8fb5-70a0f57350fe</TemplateKey>
+      <BaseColor>
+        <r>-7.07805157E-08</r>
+        <g>-3.441876E-08</g>
+        <b>-0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.34634608</A>
+              <B>0.28995356</B>
+              <C>0.36370036</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

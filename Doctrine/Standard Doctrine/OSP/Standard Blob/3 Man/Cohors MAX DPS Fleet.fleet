@@ -63,7 +63,7 @@
       <SocketMap>
         <HullSocket>
           <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
@@ -78,33 +78,51 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>mHM8XJ3eG0iNwYd-1eLaGg</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>dCnYChlTMkiyu1sAHIrWww</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
           <Key>VDQhZPo-rkWkzwozat27fw</Key>
           <ComponentName>Stock/C53 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Citadel Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>ORV0T1t8bU-FBzZlZpesyw</MagazineKey>
+                <MagazineKey>Sk2HK9l2TU-uTawSd8raUg</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
+                <Quantity>325</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>9PCI8RbR90WASVivnQ1GLw</MagazineKey>
+                <MunitionKey>Stock/450mm AP Shell</MunitionKey>
+                <Quantity>325</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>w4FzhXVBfE6NgSuD6xqqzw</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>400</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
-                <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>425</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
-                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>650</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
+                <MagazineKey>IWBaYT1VaUy3OMBLxiR8Lw</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>650</Quantity>
+                <Quantity>400</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -143,7 +161,7 @@
         </HullSocket>
         <HullSocket>
           <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
-          <ComponentName>Stock/CHI-7700 Drive</ComponentName>
+          <ComponentName>Stock/CHI-9100 Long Haul Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6evWdeLGT0uALe075-nhgw</Key>
@@ -244,7 +262,7 @@
       <SocketMap>
         <HullSocket>
           <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
@@ -259,33 +277,51 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>1bYuYhtI0EqU9AG6FKEpoA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>W3RiCMzikkusof2LNq1OtQ</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
           <Key>VDQhZPo-rkWkzwozat27fw</Key>
           <ComponentName>Stock/C53 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Citadel Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>ORV0T1t8bU-FBzZlZpesyw</MagazineKey>
+                <MagazineKey>3J5w8aAOQEuAALnzGMyLHw</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>325</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
+                <MagazineKey>bTegNfNsvU2jYF1AQD8vrw</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
+                <Quantity>325</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>aHNi8FfBC0qTtJkyXNIcOA</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>400</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
-                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>650</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
+                <MagazineKey>uIMNgfp2HUyZZQqRzzEHtQ</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>650</Quantity>
+                <Quantity>400</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -324,7 +360,7 @@
         </HullSocket>
         <HullSocket>
           <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
-          <ComponentName>Stock/CHI-7700 Drive</ComponentName>
+          <ComponentName>Stock/CHI-9100 Long Haul Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6evWdeLGT0uALe075-nhgw</Key>
@@ -425,7 +461,7 @@
       <SocketMap>
         <HullSocket>
           <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
@@ -440,33 +476,51 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>74y4qJVGeU-6J9M5zbLu4A</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>pU0NfnhlQUOtTyop_AzqJQ</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
           <Key>VDQhZPo-rkWkzwozat27fw</Key>
           <ComponentName>Stock/C53 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Citadel Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>ORV0T1t8bU-FBzZlZpesyw</MagazineKey>
+                <MagazineKey>rx4xn8BIsEG6jbUUonlstg</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>325</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>oknPhoddJES6PZSopG8ihA</MagazineKey>
+                <MagazineKey>zprd0MWlskukptEhwv-DTw</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
+                <Quantity>325</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8QQsaiBCaE-Ma_9r-2EySA</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
                 <Quantity>400</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>rdYSQWSR6E6OpGCccVjM0w</MagazineKey>
-                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>650</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>3sWFlrQaPU6DzLLbAZo9bw</MagazineKey>
+                <MagazineKey>u1XtgBU8NU-UP2-2M8IYbA</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>650</Quantity>
+                <Quantity>400</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -505,7 +559,7 @@
         </HullSocket>
         <HullSocket>
           <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
-          <ComponentName>Stock/CHI-7700 Drive</ComponentName>
+          <ComponentName>Stock/CHI-9100 Long Haul Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6evWdeLGT0uALe075-nhgw</Key>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>194CN BSSJ EOD AW SAX Fleet</Name>
+  <Name>202 CN J AWD AW AR ARD Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>2680</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -71,12 +71,12 @@
               <MagSaveData>
                 <MagazineKey>-LZccvXvA0aaQ_EME-yf2g</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick AW</MunitionKey>
-                <Quantity>22</Quantity>
+                <Quantity>23</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>u6JzWHJ9B06SU9Y5z9yLxQ</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick J</MunitionKey>
-                <Quantity>13</Quantity>
+                <Quantity>14</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -93,7 +93,7 @@
               <MagSaveData>
                 <MagazineKey>mzwg3M033k2NWmpy-KsjUQ</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick AW</MunitionKey>
-                <Quantity>22</Quantity>
+                <Quantity>23</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6rsjtYJOokOp-Vb3grL2lA</MagazineKey>
@@ -103,7 +103,7 @@
               <MagSaveData>
                 <MagazineKey>_FOw8rAGeEeFQrFw7r6lEA</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick J</MunitionKey>
-                <Quantity>13</Quantity>
+                <Quantity>14</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -119,13 +119,13 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>VL2GpXb1HUeVGL-IorLJjw</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>$MODMIS$/CM-400 Brick AWD</MunitionKey>
+                <Quantity>22</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>94-Kqmr0FEiKBKQAzi21MA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>$MODMIS$/CM-400 Brick ARD</MunitionKey>
+                <Quantity>22</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -141,13 +141,13 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>cYGlHnqRkka4ipodvyGURg</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>$MODMIS$/CM-400 Brick AWD</MunitionKey>
+                <Quantity>22</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>OAItbg7r60WZ1YCvQSNvuA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>$MODMIS$/CM-400 Brick ARD</MunitionKey>
+                <Quantity>22</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -221,7 +221,7 @@ Targeting Modes:
 Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-175 m/s for 30,875 m, top speed in 2.4 s
+200 m/s for 35,274 m, top speed in 2.5 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -304,20 +304,24 @@ Failure Rate: 0 %</LongDescription>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
       <Designation>CM-400</Designation>
-      <Nickname>Brick ED</Nickname>
-      <Description>CRUISE - PSV(&lt;color=#53FFFF&gt;EO&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-400 Brick ED is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Passive Electro-Optical seeker.
+      <Nickname>Brick AWD</Nickname>
+      <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
+      <LongDescription>The CM-400 Brick AWD is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: PASSIVE (&lt;color=#53FFFF&gt;EO&lt;/color&gt;)
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-175 m/s for 27,702 m, top speed in 2.4 s
+201 m/s for 31,677 m, top speed in 2.5 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -332,7 +336,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>13</Cost>
+      <Cost>11</Cost>
       <BodyKey>Stock/CM-4 Body</BodyKey>
       <TemplateKey>1bfd624a-80df-43f1-a1ae-7d6bdc024928</TemplateKey>
       <BaseColor>
@@ -350,8 +354,8 @@ Failure Rate: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveSeekerSettings">
-            <ComponentKey>Stock/Electro-Optical Seeker</ComponentKey>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
             <DetectPDTargets>false</DetectPDTargets>
@@ -359,8 +363,11 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Validation</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -397,6 +404,12 @@ Failure Rate: 0 %</LongDescription>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
@@ -410,7 +423,7 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 
-175 m/s for 28,833 m, top speed in 2.5 s
+200 m/s for 32,939 m, top speed in 2.5 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -490,6 +503,9 @@ Failure Rate: 0 %</LongDescription>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
@@ -504,7 +520,7 @@ Targeting Modes:
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-175 m/s for 27,787 m, top speed in 2.4 s
+200 m/s for 31,746 m, top speed in 2.5 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -585,6 +601,112 @@ Failure Rate: 0 %</LongDescription>
               <B>0.3516594</B>
               <C>0.149614066</C>
             </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>CM-400</Designation>
+      <Nickname>Brick ARD</Nickname>
+      <Description>CRUISE - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The CM-400 Brick ARD is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+Control Method: CRUISE (Waypoint Capable)
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
+Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+
+201 m/s for 31,677 m, top speed in 2.5 s
+Terminal Maneuvers: None
+
+Contact Fuze, High Explosive, Shaped
+Armor: 107cm   Component: 3,840hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 150 
+Programming Time: 20 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>12</Cost>
+      <BodyKey>Stock/CM-4 Body</BodyKey>
+      <TemplateKey>5979f652-bb95-4b89-80e9-a80242bea21c</TemplateKey>
+      <BaseColor>
+        <r>0</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CruiseGuidanceSettings">
+            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>10</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.5038059</A>
+              <B>0.349119723</B>
+              <C>0.1470744</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>

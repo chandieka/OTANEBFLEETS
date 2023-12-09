@@ -4,13 +4,16 @@
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
-  <SortOverrideOrder xsi:nil="true" />
+  <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
+
+This group is comprised of small but deadly ships. It is heavily missile focused, with every missile type represented in some way with a variety of seeker configurations. It is highly recommended to explore this fleet and its missiles in the editor to understand its capabilities before taking it into battle.</Description>
+  <SortOverrideOrder>7</SortOverrideOrder>
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>93ddee0c-3096-4bfa-b8ec-a5c0dffa02ed</Key>
       <Name>Eye of Providence</Name>
-      <Cost>821</Cost>
+      <Cost>837</Cost>
       <Callsign />
       <Number>660</Number>
       <SymbolOption>1</SymbolOption>
@@ -140,7 +143,7 @@
       <SaveID xsi:nil="true" />
       <Key>8e84cd8d-f17d-4d84-b771-181c5fd0b576</Key>
       <Name>Rod of Iron</Name>
-      <Cost>880</Cost>
+      <Cost>864</Cost>
       <Callsign />
       <Number>970</Number>
       <SymbolOption>0</SymbolOption>
@@ -276,7 +279,7 @@
       <SaveID xsi:nil="true" />
       <Key>bd1cc2e8-735c-4794-bae2-88bbb6cfb8ce</Key>
       <Name>Black Flanks</Name>
-      <Cost>439</Cost>
+      <Cost>464</Cost>
       <Callsign />
       <Number>475</Number>
       <SymbolOption>0</SymbolOption>
@@ -339,6 +342,10 @@
           <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
+          <ComponentName>Stock/Actively Cooled Amplifiers</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>MBOvGazj6UWpt2OOy44s7w</Key>
           <ComponentName>Stock/Missile Programming Bus</ComponentName>
         </HullSocket>
@@ -357,7 +364,7 @@
       <SaveID xsi:nil="true" />
       <Key>e9464b37-fe25-4f22-b80f-6cfbaf7ac5ab</Key>
       <Name>Charger</Name>
-      <Cost>466</Cost>
+      <Cost>441</Cost>
       <Callsign />
       <Number>773</Number>
       <SymbolOption>0</SymbolOption>
@@ -388,7 +395,7 @@
               <MagSaveData>
                 <MagazineKey>mlYKQ3ivm0OqiTNLi7Udhw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>9</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>r83t4oo-bkGknogkxOwLiQ</MagazineKey>
@@ -396,14 +403,9 @@
                 <Quantity>2</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>RNRVA62N4kSwL04kRie6ow</MagazineKey>
-                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>3</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>8GAgdxOQMESaVv2hrQ_jXg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-160 Rampart</MunitionKey>
-                <Quantity>27</Quantity>
+                <Quantity>22</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -568,7 +570,7 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#FF2525&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
 
-213 m/s for 3,000 m, top speed in 1.1 s
+185 m/s for 4,502 m, top speed in 1.0 s
 Terminal Maneuvers: Corkscrew
 
 Contact Fuze, High Explosive, Shaped
@@ -623,6 +625,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Corkscrew</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -641,9 +644,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.30272603</A>
-              <B>0.178465977</B>
-              <C>0.518808</C>
+              <A>0.08347691</A>
+              <B>0.500385761</B>
+              <C>0.416137338</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -660,12 +663,12 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-300 m/s for 4,707 m, top speed in 0.6 s
+270 m/s for 5,023 m, top speed in 0.7 s
 Terminal Maneuvers: None
 
 Proximity Fuze, High Explosive, Blast Fragmentation
-Armor: 1cm   Component: 48hp
-Blast Radius: 40 m
+Armor: 2cm   Component: 65hp
+Blast Radius: 47 m
 
 Body Integrity: 10 
 Programming Time: 6 s
@@ -693,10 +696,10 @@ Failure Rate: 0 %</LongDescription>
         <MissileSocket>
           <Size>1</Size>
           <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>true</DetectPDTargets>
+            <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -704,11 +707,12 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Defensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>1</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -717,19 +721,19 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>3</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>4</Size>
+          <Size>3</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.333333343</A>
-              <B>0.333333343</B>
-              <C>0.333333343</C>
+              <A>0.134217873</A>
+              <B>0.7181097</B>
+              <C>0.1476724</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -748,7 +752,7 @@ Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Validation Seeker(s): PASSIVE (&lt;color=#53FFFF&gt;EO&lt;/color&gt;)
 
 Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
-Sprint: 838 m/s for 4,531 m, top speed in 1.0 s
+Sprint: 791 m/s for 4,728 m, top speed in 0.9 s
    Stage Trigger on Target Detection (&lt;color=#FBFF4C&gt;Direction-Only Seeker&lt;/color&gt;)
 Terminal Maneuvers: Weave
 
@@ -764,7 +768,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>24</Cost>
+      <Cost>23</Cost>
       <BodyKey>Stock/SGM-H-3 Body</BodyKey>
       <TemplateKey>d64a2477-f089-49f3-b7bc-719d21ee3b97</TemplateKey>
       <BaseColor>
@@ -811,6 +815,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -828,9 +833,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.640891433</A>
-              <B>0.173926115</B>
-              <C>0.185182452</C>
+              <A>0.535071552</A>
+              <B>0.230021164</B>
+              <C>0.234907284</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -920,6 +925,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1028,6 +1034,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1067,7 +1074,7 @@ Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Validation Seeker(s): PASSIVE (&lt;color=#53FFFF&gt;EO&lt;/color&gt;)
 
 Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
-Sprint: 838 m/s for 4,531 m, top speed in 1.0 s
+Sprint: 791 m/s for 4,699 m, top speed in 0.9 s
    Stage Trigger on Target Detection (&lt;color=#FBFF4C&gt;Direction-Only Seeker&lt;/color&gt;)
 Terminal Maneuvers: Weave
 
@@ -1083,7 +1090,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>36</Cost>
+      <Cost>35</Cost>
       <BodyKey>Stock/SGM-H-3 Body</BodyKey>
       <TemplateKey>4852f21a-7ef9-41fd-8891-4a8548d9a033</TemplateKey>
       <BaseColor>
@@ -1133,6 +1140,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1150,9 +1158,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.640891433</A>
-              <B>0.173926115</B>
-              <C>0.185182452</C>
+              <A>0.535071552</A>
+              <B>0.2259696</B>
+              <C>0.238958851</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

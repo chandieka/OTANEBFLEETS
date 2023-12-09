@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>194CN BSSJ EOD AW SAX Fleet</Name>
+  <Name>WIP 41</Name>
   <Version>3</Version>
-  <TotalPoints>2680</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -66,17 +66,17 @@
               <MagSaveData>
                 <MagazineKey>PsOk2OwPVkGdLXx9GusTvw</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick AR</MunitionKey>
-                <Quantity>22</Quantity>
+                <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>-LZccvXvA0aaQ_EME-yf2g</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick AW</MunitionKey>
-                <Quantity>22</Quantity>
+                <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>u6JzWHJ9B06SU9Y5z9yLxQ</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick J</MunitionKey>
-                <Quantity>13</Quantity>
+                <Quantity>15</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -93,17 +93,17 @@
               <MagSaveData>
                 <MagazineKey>mzwg3M033k2NWmpy-KsjUQ</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick AW</MunitionKey>
-                <Quantity>22</Quantity>
+                <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6rsjtYJOokOp-Vb3grL2lA</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick AR</MunitionKey>
-                <Quantity>22</Quantity>
+                <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>_FOw8rAGeEeFQrFw7r6lEA</MagazineKey>
                 <MunitionKey>$MODMIS$/CM-400 Brick J</MunitionKey>
-                <Quantity>13</Quantity>
+                <Quantity>15</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -119,13 +119,13 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>VL2GpXb1HUeVGL-IorLJjw</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
+                <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>94-Kqmr0FEiKBKQAzi21MA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
+                <Quantity>24</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -141,13 +141,13 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>cYGlHnqRkka4ipodvyGURg</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
+                <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>OAItbg7r60WZ1YCvQSNvuA</MagazineKey>
-                <MunitionKey>$MODMIS$/CM-400 Brick ED</MunitionKey>
-                <Quantity>20</Quantity>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
+                <Quantity>24</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -160,7 +160,13 @@
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>GuYj2sVUp02a6dufJilXzg</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -221,7 +227,7 @@ Targeting Modes:
 Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-175 m/s for 30,875 m, top speed in 2.4 s
+175 m/s for 35,980 m, top speed in 1.9 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -298,104 +304,14 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.498726547</A>
-              <B>0.355715156</B>
-              <C>0.1455583</C>
+              <A>0.331108063</A>
+              <B>0.427357137</B>
+              <C>0.2415348</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-    <MissileTemplate>
-      <Designation>CM-400</Designation>
-      <Nickname>Brick ED</Nickname>
-      <Description>CRUISE - PSV(&lt;color=#53FFFF&gt;EO&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The CM-400 Brick ED is a size 3 waypoint-capable cruise missile.  It is based on the CM-4 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Passive Electro-Optical seeker.
-
-Control Method: CRUISE (Waypoint Capable)
-Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: PASSIVE (&lt;color=#53FFFF&gt;EO&lt;/color&gt;)
-
-175 m/s for 27,702 m, top speed in 2.4 s
-Terminal Maneuvers: None
-
-Contact Fuze, High Explosive, Shaped
-Armor: 107cm   Component: 3,840hp
-Blast Angle: 70 deg
-Damage Per Fragment: 50.0
-
-Body Integrity: 150 
-Programming Time: 20 s
-Radar Signature Bonus: 100 %
-Boost-Phase Duration: 3 s
-Boost-Phase Strafe: 100 %
-Boost-Phase Turn Rate: 100 %
-Failure Rate: 0 %</LongDescription>
-      <Cost>13</Cost>
-      <BodyKey>Stock/CM-4 Body</BodyKey>
-      <TemplateKey>1bfd624a-80df-43f1-a1ae-7d6bdc024928</TemplateKey>
-      <BaseColor>
-        <r>0</r>
-        <g>0</g>
-        <b>0</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>0</r>
-        <g>0</g>
-        <b>0</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveSeekerSettings">
-            <ComponentKey>Stock/Electro-Optical Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="CruiseGuidanceSettings">
-            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
-            <Role>Offensive</Role>
-            <HotLaunch>true</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <TargetSizeMask>12</TargetSizeMask>
-              <TargetType>All</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>4</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/HE Impact</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>10</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0.5038059</A>
-              <B>0.349119723</B>
-              <C>0.1470744</C>
-            </BalanceValues>
-          </InstalledComponent>
         </MissileSocket>
       </Sockets>
     </MissileTemplate>
@@ -410,7 +326,7 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 
-175 m/s for 28,833 m, top speed in 2.5 s
+175 m/s for 35,556 m, top speed in 2.0 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -484,11 +400,14 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.498726547</A>
-              <B>0.36788246</B>
-              <C>0.133391</C>
+              <A>0.336187422</A>
+              <B>0.469430834</B>
+              <C>0.194381744</C>
             </BalanceValues>
           </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
         </MissileSocket>
       </Sockets>
     </MissileTemplate>
@@ -504,7 +423,7 @@ Targeting Modes:
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-175 m/s for 27,787 m, top speed in 2.4 s
+175 m/s for 34,507 m, top speed in 2.0 s
 Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
@@ -581,11 +500,14 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.498726547</A>
-              <B>0.3516594</B>
-              <C>0.149614066</C>
+              <A>0.336187422</A>
+              <B>0.4532078</B>
+              <C>0.210604787</C>
             </BalanceValues>
           </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
         </MissileSocket>
       </Sockets>
     </MissileTemplate>

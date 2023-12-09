@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>0e9a229a-31b7-4f06-9bd3-66cfdd74c5e9</Key>
       <Name>Self Royal</Name>
-      <Cost>395</Cost>
+      <Cost>435</Cost>
       <Callsign>T1-Leader</Callsign>
       <Number>10</Number>
       <SymbolOption>0</SymbolOption>
@@ -61,14 +61,9 @@
                 <Quantity>10000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>-Duh4FnQ4kedIJ9t-UD2bg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>peMS7QFgu0GqQsqXywzmLg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -109,7 +104,7 @@
       <SaveID xsi:nil="true" />
       <Key>c391d2a8-5ba5-49c2-90cd-b8ae52a1b9dd</Key>
       <Name>Far Pony</Name>
-      <Cost>245</Cost>
+      <Cost>251</Cost>
       <Callsign>EW A</Callsign>
       <Number>868</Number>
       <SymbolOption>0</SymbolOption>
@@ -129,14 +124,9 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>RT_wSew_y0yS-q2_YKqOmw</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>6</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>wGSjvt-L2U2KpVggPJ30CQ</MagazineKey>
+                <MagazineKey>gzZJgyjb_0CSO5cT-PUK_g</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-101 Knife LR-3</MunitionKey>
-                <Quantity>17</Quantity>
+                <Quantity>23</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -177,9 +167,9 @@
       <InitialFormation>
         <GuideKey>0e9a229a-31b7-4f06-9bd3-66cfdd74c5e9</GuideKey>
         <RelativePosition>
-          <x>-60.2155037</x>
-          <y>0</y>
-          <z>0.0949707</z>
+          <x>-60.2184372</x>
+          <y>14.8345337</y>
+          <z>-0.8108063</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
@@ -188,7 +178,7 @@
       <SaveID xsi:nil="true" />
       <Key>ed0f3255-2594-426c-92c1-a903ebcadda8</Key>
       <Name>Sweet Beats</Name>
-      <Cost>245</Cost>
+      <Cost>265</Cost>
       <Callsign>EW B</Callsign>
       <Number>935</Number>
       <SymbolOption>0</SymbolOption>
@@ -196,7 +186,7 @@
       <SocketMap>
         <HullSocket>
           <Key>3mlCA6C6m0GI3wONZK_aqg</Key>
-          <ComponentName>Stock/J15 Jammer</ComponentName>
+          <ComponentName>Stock/J360 Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>fbAgHM9u302peFMSC0TidQ</Key>
@@ -204,21 +194,7 @@
         </HullSocket>
         <HullSocket>
           <Key>rbZhGCN7UUWcgLsNZkZXIA</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>iq69X5r4A0uFTe2_ta2kKg</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>6</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Lx-q24xtm0q3_mypnOlSlQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-101 Knife LR-3</MunitionKey>
-                <Quantity>17</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/L50 Laser Dazzler</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
@@ -242,14 +218,19 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="EW TOP">
+        <WepGroup Name="EW BOT">
+          <MemberKeys>
+            <string>fbAgHM9u302peFMSC0TidQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="RADAR BUBBLE">
           <MemberKeys>
             <string>3mlCA6C6m0GI3wONZK_aqg</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="EW BOT">
+        <WepGroup Name="DAZZLER">
           <MemberKeys>
-            <string>fbAgHM9u302peFMSC0TidQ</string>
+            <string>rbZhGCN7UUWcgLsNZkZXIA</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -267,7 +248,8 @@
       <SaveID xsi:nil="true" />
       <Key>c6490de8-ea3c-4f80-a8ae-6907f4f4ec55</Key>
       <Name>Sane Gloom</Name>
-      <Cost>245</Cost>
+      <Cost>249</Cost>
+      <Callsign>EW C</Callsign>
       <Number>429</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Shuttle</HullType>
@@ -286,14 +268,9 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>DxWPnj2LN0-dOue1a-IKjQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>6</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Y6nbfc_wuE6R6JX-W5P2SA</MagazineKey>
+                <MagazineKey>Sv_DS82wIUizIKBh56INoQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-101 Knife LR-3</MunitionKey>
-                <Quantity>17</Quantity>
+                <Quantity>22</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -334,9 +311,9 @@
       <InitialFormation>
         <GuideKey>0e9a229a-31b7-4f06-9bd3-66cfdd74c5e9</GuideKey>
         <RelativePosition>
-          <x>60.79058</x>
-          <y>0</y>
-          <z>-0.0279541016</z>
+          <x>60.02392</x>
+          <y>15.5396729</y>
+          <z>1.427124</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
@@ -345,7 +322,8 @@
       <SaveID xsi:nil="true" />
       <Key>f0175c74-da12-4482-a7d6-2d9e177ee293</Key>
       <Name>Ruled Hands</Name>
-      <Cost>374</Cost>
+      <Cost>324</Cost>
+      <Callsign>T2</Callsign>
       <Number>126</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -397,12 +375,7 @@
               <MagSaveData>
                 <MagazineKey>-Duh4FnQ4kedIJ9t-UD2bg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>peMS7QFgu0GqQsqXywzmLg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -447,7 +420,8 @@
       <SaveID xsi:nil="true" />
       <Key>32642a19-01ce-4023-994f-6c91273aee7d</Key>
       <Name>True Sign</Name>
-      <Cost>374</Cost>
+      <Cost>414</Cost>
+      <Callsign>T3-ILUM</Callsign>
       <Number>31</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -497,14 +471,9 @@
                 <Quantity>10000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>-Duh4FnQ4kedIJ9t-UD2bg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>peMS7QFgu0GqQsqXywzmLg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -549,7 +518,8 @@
       <SaveID xsi:nil="true" />
       <Key>6b5024d1-8a93-43f1-9dc4-c76df8f92668</Key>
       <Name>Mod Bump</Name>
-      <Cost>374</Cost>
+      <Cost>414</Cost>
+      <Callsign>T4-ILUM</Callsign>
       <Number>681</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -599,14 +569,9 @@
                 <Quantity>10000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>-Duh4FnQ4kedIJ9t-UD2bg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>peMS7QFgu0GqQsqXywzmLg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -651,7 +616,8 @@
       <SaveID xsi:nil="true" />
       <Key>16d3d11e-ae59-435b-81fb-078092712351</Key>
       <Name>Smart Cheat</Name>
-      <Cost>374</Cost>
+      <Cost>324</Cost>
+      <Callsign>T5-ILUM</Callsign>
       <Number>293</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -703,12 +669,7 @@
               <MagSaveData>
                 <MagazineKey>-Duh4FnQ4kedIJ9t-UD2bg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>peMS7QFgu0GqQsqXywzmLg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -753,7 +714,8 @@
       <SaveID xsi:nil="true" />
       <Key>82eff731-189b-4463-a7bf-c7b20d7d3c23</Key>
       <Name>Moved Amino</Name>
-      <Cost>374</Cost>
+      <Cost>324</Cost>
+      <Callsign>T6-ILUM</Callsign>
       <Number>116</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
@@ -805,12 +767,7 @@
               <MagSaveData>
                 <MagazineKey>-Duh4FnQ4kedIJ9t-UD2bg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
-                <Quantity>5</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>peMS7QFgu0GqQsqXywzmLg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -924,6 +881,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1017,6 +975,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1059,7 +1018,7 @@ Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Terminal Maneuvers: None
 
 Proximity Fuze, High Explosive, Blast Fragmentation
-Armor: 1cm   Component: 48hp
+Armor: 2cm   Component: 57hp
 Blast Radius: 40 m
 
 Body Integrity: 10 
@@ -1104,6 +1063,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>1</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
