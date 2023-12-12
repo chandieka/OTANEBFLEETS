@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>6e1415bd-31f8-4803-bb4d-3976f0cb8e1a</Key>
       <Name>Manly Baton</Name>
-      <Cost>1535</Cost>
+      <Cost>1549</Cost>
       <Callsign>G1-Bubble</Callsign>
       <Number>688</Number>
       <SymbolOption>0</SymbolOption>
@@ -48,7 +48,7 @@
               <MagSaveData>
                 <MagazineKey>F0PNbMapVUC7aqMDzPxGBQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Bubble D</MunitionKey>
-                <Quantity>8</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -133,7 +133,7 @@
         </HullSocket>
         <HullSocket>
           <Key>-XwaOMN6eUSsztvywrmXVQ</Key>
-          <ComponentName>Stock/FM580 'Raider' Drive</ComponentName>
+          <ComponentName>Stock/FM530 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>26mxVeOdd0SB5ZSaG_hJ0w</Key>
@@ -184,7 +184,7 @@
       <SaveID xsi:nil="true" />
       <Key>141d9647-8977-4c96-a6b5-2689f6f773f6</Key>
       <Name>Fast Brood</Name>
-      <Cost>975</Cost>
+      <Cost>961</Cost>
       <Callsign>G2-DPS</Callsign>
       <Number>805</Number>
       <SymbolOption>0</SymbolOption>
@@ -252,14 +252,19 @@
           <ComponentName>Stock/C65 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>tcQfj6XOHUWFSAx_W0cc1A</Key>
-          <ComponentName>Stock/Container Stack Launcher</ComponentName>
+          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>bvObTSKAo0eQjWbEYbk8HA</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Clipper)</MunitionKey>
-                <Quantity>2</Quantity>
+                <MagazineKey>FTwmn3sY0kWjU9oxqeeZzA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>XRrr8qn95Eyli_HryhJJRw</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>7</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -270,28 +275,28 @@
         </HullSocket>
         <HullSocket>
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Citadel Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>2iUmfwXHbE6Qk4nS62_ApQ</MagazineKey>
+                <MagazineKey>1KfjS3JBiEuLudebCVHvdw</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>Jb9nWP9gfkCITlyfPZH5pQ</MagazineKey>
+                <MagazineKey>9EVVR0S2qEiiJmjAYZhS0w</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>350</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>5ds8ncNan0CdX8rNqKJnZg</MagazineKey>
+                <MagazineKey>egSfV6h4R0qk5pTV_rnxbg</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>300</Quantity>
+                <Quantity>200</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>63TQt9C1d0exo4jHK7LtOg</MagazineKey>
+                <MagazineKey>Do4OjsfY2UWMxn9DWnP0hQ</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>300</Quantity>
+                <Quantity>200</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -330,7 +335,7 @@
         </HullSocket>
         <HullSocket>
           <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
-          <ComponentName>Stock/CHI-7700 Drive</ComponentName>
+          <ComponentName>Stock/CHI-9100 Long Haul Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6evWdeLGT0uALe075-nhgw</Key>
@@ -382,7 +387,7 @@
       <SaveID xsi:nil="true" />
       <Key>55442452-7b91-4964-981d-08c3bdab162e</Key>
       <Name>Nosed Sage</Name>
-      <Cost>290</Cost>
+      <Cost>265</Cost>
       <Callsign>G1-EW</Callsign>
       <Number>1148</Number>
       <SymbolOption>0</SymbolOption>
@@ -452,7 +457,7 @@
       <SaveID xsi:nil="true" />
       <Key>8d2f2563-5cd7-42b8-84ef-354f274fec6d</Key>
       <Name>Like Ram</Name>
-      <Cost>200</Cost>
+      <Cost>225</Cost>
       <Callsign>G2-EW</Callsign>
       <Number>232</Number>
       <SymbolOption>0</SymbolOption>
@@ -485,6 +490,10 @@
         <HullSocket>
           <Key>-harMwD0o0OExuMqT63fTQ</Key>
           <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>zUeDN4FpYEyyWHIhTIgZFg</Key>
+          <ComponentName>Stock/Actively Cooled Amplifiers</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -571,6 +580,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>0</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

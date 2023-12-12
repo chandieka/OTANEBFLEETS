@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Cohors Flanker Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>3000</TotalPoints>
+  <TotalPoints>3008</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -774,4 +774,5 @@
       <TemplateMissileTypes />
     </Ship>
   </Ships>
+  <MissileTypes />
 </Fleet>

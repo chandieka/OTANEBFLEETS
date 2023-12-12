@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Manta Tug</Name>
+  <Name>TG WAKE Torp</Name>
   <Version>3</Version>
-  <TotalPoints>374</TotalPoints>
+  <TotalPoints>251</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>cdb96893-b03f-465f-95dd-aab0ea3aa9b2</Key>
-      <Name>Large Jail</Name>
-      <Cost>374</Cost>
-      <Number>735</Number>
+      <Key>76cb0ca6-f396-47fb-bd7f-340b54a7a949</Key>
+      <Name>Slav Steel</Name>
+      <Cost>251</Cost>
+      <Number>1122</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
       <SocketMap>
@@ -21,23 +21,23 @@
         </HullSocket>
         <HullSocket>
           <Key>cIGspM4oYU2etRfjIcuCCA</Key>
-          <ComponentName>Stock/MLS-2 Launcher</ComponentName>
+          <ComponentName>Stock/MLS-3 Launcher</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>0upOgm0H0UuZ-h2YvRjmBg</Key>
-          <ComponentName>Stock/MLS-2 Launcher</ComponentName>
+          <ComponentName>Stock/MLS-3 Launcher</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>KnFHQkb9uUe98IweLYf9wg</Key>
-          <ComponentName>Stock/P11 PDT</ComponentName>
+          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>5kd20hGcxUuTlY-6JYaudA</Key>
-          <ComponentName>Stock/P11 PDT</ComponentName>
+          <ComponentName>Stock/E20 'Lighthouse' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>F6bmJdCO3EqzXK9SBJoXUw</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>-PqoLKimSUOZtKMLo5QHXg</Key>
@@ -45,39 +45,17 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>6oAJ6TMRCkq3mR9QD8Rkgw</MagazineKey>
+                <MagazineKey>nayNJlRmwEmB51lLp1ovLw</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>100</Quantity>
+                <Quantity>1</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>ithFO5FyeUKLXzq81D5yBA</MagazineKey>
-                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>3rL5xwxvp0KgbI7OSVU3Xg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Red AR</MunitionKey>
-                <Quantity>15</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>-z1vSrmIzUqvYOSmrO8-Qw</MagazineKey>
-                <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
+                <MagazineKey>Pkrtnag-j0CTkpmCSvzmKw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum</MunitionKey>
+                <Quantity>11</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>DakKS2gy6UyM58u3YG-HfQ</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>peqaYrE39UupWCXPY_PgoA</Key>
-          <ComponentName>Stock/Small DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>6OieSH0A6kKFmquctn9_aQ</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>NSAbhn9brE-aAirJFIYG-Q</Key>
@@ -85,7 +63,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_qlP8rsUpUiJpkRc1tcjPQ</Key>
-          <ComponentName>Stock/BW800-R Drive</ComponentName>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RMDTRlITGUm1ZgbIgWq1Xw</Key>
@@ -98,53 +76,52 @@
   </Ships>
   <MissileTypes>
     <MissileTemplate>
-      <AssociatedTemplateName>SGM-200 Red AR</AssociatedTemplateName>
-      <Designation>SGM-200</Designation>
-      <Nickname>Red AR</Nickname>
-      <Description>DIRECT - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
-      <LongDescription>The SGM-200 Red AR is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
+      <Designation>SGT-300</Designation>
+      <Nickname>Pilum</Nickname>
+      <Description>DIRECT - PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)/SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGT-300 Pilum is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Passive Wake seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Semi-Active Radar seeker.
 
 Control Method: DIRECT
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+Primary Seeker: PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+Backup Seeker(s): SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-254 m/s for 9,771 m, top speed in 1.4 s
-Terminal Maneuvers: Weave
+217 m/s for 5,036 m, top speed in 1.2 s
+Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
-Armor: 60cm   Component: 1,200hp
+Armor: 80cm   Component: 2,160hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
-Body Integrity: 30 
-Programming Time: 8 s
+Body Integrity: 160 
+Programming Time: 3 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
-      <BodyKey>Stock/SGM-2 Body</BodyKey>
-      <TemplateKey>60587150-98f8-40ba-9df3-19f3082aeba4</TemplateKey>
+      <Cost>5</Cost>
+      <BodyKey>Stock/SGT-3 Body</BodyKey>
+      <TemplateKey>b7690cc7-1b2d-409a-b427-ba075c35d226</TemplateKey>
       <BaseColor>
-        <r>-7.07805157E-08</r>
-        <g>-5.23862731E-10</g>
-        <b>-5.23862731E-10</b>
+        <r>0.2627451</r>
+        <g>0.2627451</g>
+        <b>0.2627451</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
+        <r>0.8509804</r>
+        <g>0.3647059</g>
+        <b>0.180392161</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
             <DetectPDTargets>false</DetectPDTargets>
@@ -152,9 +129,9 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveSeekerSettings">
-            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
-            <Mode>Validation</Mode>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
             <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
@@ -166,7 +143,7 @@ Failure Rate: 0 %</LongDescription>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>Weave</Maneuvers>
+            <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
@@ -178,19 +155,19 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>5</Size>
+          <Size>3</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>5</Size>
+          <Size>11</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.5190439</A>
-              <B>0.240106612</B>
-              <C>0.240849465</C>
+              <A>0.33333</A>
+              <B>0.33333</B>
+              <C>0.33333</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

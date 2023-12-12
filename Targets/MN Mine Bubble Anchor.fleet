@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>MN Mine Bubble Anchor</Name>
   <Version>3</Version>
-  <TotalPoints>654</TotalPoints>
+  <TotalPoints>600</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -122,4 +122,5 @@
       <TemplateMissileTypes />
     </Ship>
   </Ships>
+  <MissileTypes />
 </Fleet>
