@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>1243bf29-0fbe-47fe-be2a-92cec4e0a7b8</Key>
       <Name>Pet Hydra</Name>
-      <Cost>1528</Cost>
+      <Cost>1475</Cost>
       <Callsign>Gun Sensor</Callsign>
       <Number>292</Number>
       <SymbolOption>0</SymbolOption>
@@ -42,7 +42,20 @@
         </HullSocket>
         <HullSocket>
           <Key>-lwFeyvDUECyC-AuVfATog</Key>
-          <ComponentName>Stock/E70 'Interruption' Jammer</ComponentName>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>v8mcO-VQkEGrlUUw9WK6Zw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Bubble D</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+            <ConfiguredSize>
+              <x>1</x>
+              <y>2</y>
+            </ConfiguredSize>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>rI5k7ytZH0S7yQLZnFB_nQ</Key>
@@ -73,12 +86,12 @@
               <MagSaveData>
                 <MagazineKey>9Ebej1pB3U-J5KDN9e1jmQ</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>287</Quantity>
+                <Quantity>290</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>GeyqdAkgckeVHBcy-V4k1Q</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>1039</Quantity>
+                <Quantity>750</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -179,11 +192,6 @@
             <string>Gpm2KFKPCU-0ECKr0YsJAw</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="Comn Bubble">
-          <MemberKeys>
-            <string>-lwFeyvDUECyC-AuVfATog</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
     </Ship>
@@ -191,7 +199,7 @@
       <SaveID xsi:nil="true" />
       <Key>c5c0f31e-90bf-4aa8-92a9-34d27b30127c</Key>
       <Name>Hired Pear</Name>
-      <Cost>1472</Cost>
+      <Cost>1525</Cost>
       <Callsign>Gun EW</Callsign>
       <Number>307</Number>
       <SymbolOption>0</SymbolOption>
@@ -216,6 +224,10 @@
         <HullSocket>
           <Key>o78jebL2nkezXdHJ6xA3WA</Key>
           <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Gpm2KFKPCU-0ECKr0YsJAw</Key>
+          <ComponentName>Stock/E70 'Interruption' Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>-lwFeyvDUECyC-AuVfATog</Key>
@@ -263,12 +275,12 @@
               <MagSaveData>
                 <MagazineKey>cC6EaH6ke0uvU0GbA16ykQ</MagazineKey>
                 <MunitionKey>Stock/450mm AP Shell</MunitionKey>
-                <Quantity>287</Quantity>
+                <Quantity>290</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ieM4EP7c6Eynq9OYnc64bg</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>975</Quantity>
+                <Quantity>800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -432,6 +444,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>0</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

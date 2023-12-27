@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Cohors Anchor Fleet</Name>
+  <Name>Bubble Heavy Fleet</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
@@ -9,9 +9,9 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>17ca91f6-ba30-46e4-86e3-9ec272a39c1d</Key>
-      <Name>Clear Chasm</Name>
-      <Cost>1506</Cost>
-      <Callsign>DPS A</Callsign>
+      <Name>Just Hippo</Name>
+      <Cost>1470</Cost>
+      <Callsign>S1-ECM Sensor</Callsign>
       <Number>778</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Axford Heavy Cruiser</HullType>
@@ -26,9 +26,9 @@
           <ComponentData xsi:type="ResizableCellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>d2RAhhGt6ki6kOvZGq6XMw</MagazineKey>
+                <MagazineKey>JTQF9w2wuUGUp6HVyCGJRg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Bubble D</MunitionKey>
-                <Quantity>6</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -127,15 +127,15 @@
         </HullSocket>
         <HullSocket>
           <Key>2xmOS4ns_EaMYjBXrrhhig</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1xLixKUzUSKT7Nz7aUkLQ</Key>
-          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RmUeePb-8EGbFaRgVjCXsA</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>eYp1IPfupUGVITrkVhgZJw</Key>
@@ -205,9 +205,9 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>c02f7d65-b951-40c8-b5b1-796c99d95960</Key>
-      <Name>Sorry Snot</Name>
-      <Cost>1494</Cost>
-      <Callsign>DPS B</Callsign>
+      <Name>Pass Hippy</Name>
+      <Cost>1530</Cost>
+      <Callsign>S1-Bubble EW</Callsign>
       <Number>1270</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Axford Heavy Cruiser</HullType>
@@ -217,12 +217,16 @@
           <ComponentName>Stock/Mk66 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>8CtCKPLfZEOOFvm1DhV-oQ</Key>
+          <ComponentName>Stock/E70 'Interruption' Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>N7yRYYUuG0uOzd5aufgViA</Key>
           <ComponentName>Stock/Mk68 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lYEQo4jJvEGxRqJa2MB25A</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9qreGP2Iw0KwuloNpNFTSg</Key>
@@ -230,7 +234,7 @@
         </HullSocket>
         <HullSocket>
           <Key>v9Sqa5DcCkibdi29AkakNg</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>3MoeYUx1HUS6xNDBMsssig</Key>
@@ -238,7 +242,7 @@
         </HullSocket>
         <HullSocket>
           <Key>LbD9Txe-S0a_nODTqtrk7g</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>KxV0hkkGBE2AOUCo5axQbg</Key>
@@ -268,7 +272,7 @@
               <MagSaveData>
                 <MagazineKey>KMUxv66ciEiMssWiyD3qtg</MagazineKey>
                 <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>275</Quantity>
+                <Quantity>282</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>a856ocPSnU6SWdyMk2f4rA</MagazineKey>
@@ -306,15 +310,15 @@
         </HullSocket>
         <HullSocket>
           <Key>2xmOS4ns_EaMYjBXrrhhig</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1xLixKUzUSKT7Nz7aUkLQ</Key>
-          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RmUeePb-8EGbFaRgVjCXsA</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>eYp1IPfupUGVITrkVhgZJw</Key>
@@ -368,9 +372,14 @@
             <string>N7yRYYUuG0uOzd5aufgViA</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="EW">
+        <WepGroup Name="EW L">
           <MemberKeys>
-            <string>LbD9Txe-S0a_nODTqtrk7g</string>
+            <string>lYEQo4jJvEGxRqJa2MB25A</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW R">
+          <MemberKeys>
+            <string>v9Sqa5DcCkibdi29AkakNg</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -399,7 +408,15 @@ Targeting Modes:
 Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 150 m/s for 20,075 m, top speed in 0.8 s
-Terminal Maneuvers: None</LongDescription>
+Terminal Maneuvers: None
+
+Body Integrity: 30 
+Programming Time: 8 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
       <Cost>7</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>45759116-badc-4aea-ae5e-8414976fb2e8</TemplateKey>

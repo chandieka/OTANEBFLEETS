@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>cfb4e764-fede-447f-a6c8-688a72bc92f3</Key>
       <Name>Cosy Gage</Name>
-      <Cost>1436</Cost>
+      <Cost>1446</Cost>
       <Callsign>TL-1</Callsign>
       <Number>597</Number>
       <SymbolOption>0</SymbolOption>
@@ -112,7 +112,7 @@
               <MagSaveData>
                 <MagazineKey>2tCg9Ttj10Sjd5GUEK1jcQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-101 Knife LR-2</MunitionKey>
-                <Quantity>30</Quantity>
+                <Quantity>35</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>1QwwMyc29EetGRJVqf0trw</MagazineKey>
@@ -287,7 +287,7 @@
       <SaveID xsi:nil="true" />
       <Key>15ba7bfa-6ca9-453b-9a55-74030796258a</Key>
       <Name>Liver Span</Name>
-      <Cost>1364</Cost>
+      <Cost>1354</Cost>
       <Callsign>TL-2</Callsign>
       <Number>826</Number>
       <SymbolOption>0</SymbolOption>
@@ -438,7 +438,7 @@
         </HullSocket>
         <HullSocket>
           <Key>6evWdeLGT0uALe075-nhgw</Key>
-          <ComponentName>Stock/Sundrive Racing Pro</ComponentName>
+          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>JHJi2y5Xskytpw5-Qbu95A</Key>
