@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>EVRYMAN Intel Swatter Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>3000</TotalPoints>
+  <TotalPoints>2985</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -708,6 +708,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -804,6 +805,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>0</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

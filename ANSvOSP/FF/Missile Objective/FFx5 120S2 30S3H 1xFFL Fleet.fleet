@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>FFx5 120S2 30S3H 1xFFL Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>3000</TotalPoints>
+  <TotalPoints>3012</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -718,6 +718,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -805,6 +806,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -899,6 +901,7 @@ Blast Angle: 70 deg</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

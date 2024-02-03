@@ -18,19 +18,20 @@
       <SocketMap>
         <HullSocket>
           <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
-          <ComponentData xsi:type="ResizableCellLauncherData">
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>YvISFGRr4keb8nXGLBnZ1A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Bubble D</MunitionKey>
-                <Quantity>7</Quantity>
+                <MagazineKey>f_44Ligof0OB53sUHRbHWw</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>22</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>t_rDT-l6bkun4fcH4S2i7Q</MagazineKey>
+                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
+                <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>2</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -45,7 +46,12 @@
               <MagSaveData>
                 <MagazineKey>Qe5JIJGTKkOmSZeEMtkyIw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>-KZTb0Cn2kCT_7sAajM6JQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -62,7 +68,12 @@
               <MagSaveData>
                 <MagazineKey>h0Y79SybP0yBVBnuZRaFjQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>ajj7586uD0S2BIdHCPJ4Uw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -144,7 +155,12 @@
               <MagSaveData>
                 <MagazineKey>Qe5JIJGTKkOmSZeEMtkyIw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>iec4ZEEwnkiQ1vDK17b8GQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -161,7 +177,12 @@
               <MagSaveData>
                 <MagazineKey>h0Y79SybP0yBVBnuZRaFjQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Mnz5J646HEe960o416zt2A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -258,7 +279,12 @@
               <MagSaveData>
                 <MagazineKey>Qe5JIJGTKkOmSZeEMtkyIw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>11N2idnPkEefwr64jDHaAw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -275,7 +301,12 @@
               <MagSaveData>
                 <MagazineKey>h0Y79SybP0yBVBnuZRaFjQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>IKBiraOu8UaO-k9TQ3Xcbg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -372,7 +403,12 @@
               <MagSaveData>
                 <MagazineKey>Qe5JIJGTKkOmSZeEMtkyIw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mTcrxn4M-UmPZhNrDsk4kw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -389,7 +425,12 @@
               <MagSaveData>
                 <MagazineKey>h0Y79SybP0yBVBnuZRaFjQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qIzJCMYF2EekPlwJOzTPnQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -481,7 +522,12 @@
               <MagSaveData>
                 <MagazineKey>Qe5JIJGTKkOmSZeEMtkyIw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>25tAiTBKbEi0E2IKnBdsdw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -498,7 +544,12 @@
               <MagSaveData>
                 <MagazineKey>h0Y79SybP0yBVBnuZRaFjQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-201 Blue HJ</MunitionKey>
-                <Quantity>24</Quantity>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>sDx4S1S69kq7ZSx8lElmhA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-201 Blue SW</MunitionKey>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
             <ConfiguredSize>
@@ -669,6 +720,7 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
+Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
@@ -719,6 +771,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -766,6 +819,7 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 10 
+Wall Thickness: 0.5
 Programming Time: 6 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
@@ -807,6 +861,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -834,40 +889,46 @@ Failure Rate: 0 %</LongDescription>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
-      <AssociatedTemplateName>SGM-200 Bubble D</AssociatedTemplateName>
-      <Designation>SGM-200</Designation>
-      <Nickname>Bubble D</Nickname>
-      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - NONE</Description>
-      <LongDescription>The SGM-200 Bubble D is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver no payload.  It homes in on its target using a Semi-Active Radar seeker.
+      <Designation>SGM-201</Designation>
+      <Nickname>Blue SW</Nickname>
+      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[PSV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)] - HE SHAPED</Description>
+      <LongDescription>The SGM-201 Blue SW is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
 
 Control Method: DIRECT
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-150 m/s for 20,075 m, top speed in 0.8 s
+300 m/s for 11,665 m, top speed in 2.1 s
 Terminal Maneuvers: None
 
+Contact Fuze, High Explosive, Shaped
+Armor: 60cm   Component: 1,200hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
 Body Integrity: 30 
+Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
+      <Cost>4</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
-      <TemplateKey>45759116-badc-4aea-ae5e-8414976fb2e8</TemplateKey>
+      <TemplateKey>45484718-bcd0-4dd9-ba8c-0f3c872461d2</TemplateKey>
       <BaseColor>
         <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
+        <g>-7.641514E-10</g>
+        <b>-7.641514E-10</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
+        <r>0.08927071</r>
+        <g>0.0161365326</g>
+        <b>0.224424243</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
@@ -882,17 +943,24 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Validation</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Defensive</Role>
-            <HotLaunch>true</HotLaunch>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
-              <TargetSizeMask>0</TargetSizeMask>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -901,19 +969,19 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>1</Size>
+          <Size>5</Size>
           <InstalledComponent>
-            <ComponentKey>Stock/Self-Screening Jammer</ComponentKey>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>9</Size>
+          <Size>5</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0</A>
-              <B>0.682137966</B>
-              <C>0.317862034</C>
+              <A>0.750829935</A>
+              <B>0.24917005</B>
+              <C>0</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

@@ -10,8 +10,8 @@
       <SaveID xsi:nil="true" />
       <Key>9d5693c2-5632-45b4-87e9-63894148bf56</Key>
       <Name>Swirl</Name>
-      <Cost>1531</Cost>
-      <Callsign>Gun Bubble</Callsign>
+      <Cost>1500</Cost>
+      <Callsign>1-BUBBLE</Callsign>
       <Number>531</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Ocello Cruiser</HullType>
@@ -42,24 +42,15 @@
         </HullSocket>
         <HullSocket>
           <Key>-lwFeyvDUECyC-AuVfATog</Key>
-          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
-          <ComponentData xsi:type="ResizableCellLauncherData">
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>WJ92JO_3I0OKvjFFkE4erw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Bubble D</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>d0vsdsmPKkCUZewl7-QIeQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
-                <Quantity>1</Quantity>
+                <MagazineKey>FF30zu3Ihk66Aw6xBFomow</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>26</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>2</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -114,7 +105,7 @@
         </HullSocket>
         <HullSocket>
           <Key>q5iHLt9VEU-166x4NJmr4Q</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>vXXZA02qQEyreCSFbtLJOA</Key>
@@ -177,12 +168,6 @@
             <string>iJzzxinSN0uJIjrt9M3aGA</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="Flashlight">
-          <MemberKeys />
-        </WepGroup>
-        <WepGroup Name="Flood">
-          <MemberKeys />
-        </WepGroup>
         <WepGroup Name="COMN BUBBLE">
           <MemberKeys>
             <string>Gpm2KFKPCU-0ECKr0YsJAw</string>
@@ -205,8 +190,8 @@
       <SaveID xsi:nil="true" />
       <Key>82c519d7-bfa1-4af9-99a6-efb9c1b7fb0f</Key>
       <Name>Lusty Temp</Name>
-      <Cost>1469</Cost>
-      <Callsign>Gun Bubble FC</Callsign>
+      <Cost>1500</Cost>
+      <Callsign>2-BUBBLE SENSOR</Callsign>
       <Number>1212</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Ocello Cruiser</HullType>
@@ -234,6 +219,19 @@
         <HullSocket>
           <Key>Gpm2KFKPCU-0ECKr0YsJAw</Key>
           <ComponentName>Stock/J360 Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-lwFeyvDUECyC-AuVfATog</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>Lh6-auEfkUuMGfbVyULr9A</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>26</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>rI5k7ytZH0S7yQLZnFB_nQ</Key>
@@ -287,7 +285,7 @@
         </HullSocket>
         <HullSocket>
           <Key>q5iHLt9VEU-166x4NJmr4Q</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>vXXZA02qQEyreCSFbtLJOA</Key>
@@ -372,184 +370,4 @@
       <TemplateMissileTypes />
     </Ship>
   </Ships>
-  <MissileTypes>
-    <MissileTemplate>
-      <AssociatedTemplateName>SGM-200 Bubble D</AssociatedTemplateName>
-      <Designation>SGM-200</Designation>
-      <Nickname>Bubble D</Nickname>
-      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - NONE</Description>
-      <LongDescription>The SGM-200 Bubble D is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver no payload.  It homes in on its target using a Semi-Active Radar seeker.
-
-Control Method: DIRECT
-Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-
-150 m/s for 26,920 m, top speed in 1.1 s
-Terminal Maneuvers: None
-
-Body Integrity: 30 
-Programming Time: 8 s
-Radar Signature Bonus: 100 %
-Boost-Phase Duration: 3 s
-Boost-Phase Strafe: 100 %
-Boost-Phase Turn Rate: 100 %
-Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
-      <BodyKey>Stock/SGM-2 Body</BodyKey>
-      <TemplateKey>45759116-badc-4aea-ae5e-8414976fb2e8</TemplateKey>
-      <BaseColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Defensive</Role>
-            <HotLaunch>true</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <TargetSizeMask>0</TargetSizeMask>
-              <TargetType>All</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Self-Screening Jammer</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>9</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0</A>
-              <B>1</B>
-              <C>0</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-    <MissileTemplate>
-      <Designation>SGM-200</Designation>
-      <Nickname>Tempest</Nickname>
-      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-200 Tempest is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
-
-Control Method: DIRECT
-Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-
-217 m/s for 18,078 m, top speed in 1.1 s
-Terminal Maneuvers: None
-
-Contact Fuze, High Explosive, Shaped
-Armor: 27cm   Component: 240hp
-Blast Angle: 70 deg
-Damage Per Fragment: 50.0
-
-Body Integrity: 30 
-Programming Time: 8 s
-Radar Signature Bonus: 100 %
-Boost-Phase Duration: 3 s
-Boost-Phase Strafe: 100 %
-Boost-Phase Turn Rate: 100 %
-Failure Rate: 0 %</LongDescription>
-      <Cost>3</Cost>
-      <BodyKey>Stock/SGM-2 Body</BodyKey>
-      <TemplateKey>36695aef-fd1e-4d25-8974-be9c666cd4c5</TemplateKey>
-      <BaseColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>-7.07805157E-08</r>
-        <g>-0</g>
-        <b>-0</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <TargetSizeMask>12</TargetSizeMask>
-              <TargetType>All</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/HE Impact</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>9</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0.33333</A>
-              <B>0.33333</B>
-              <C>0.33333</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-  </MissileTypes>
 </Fleet>

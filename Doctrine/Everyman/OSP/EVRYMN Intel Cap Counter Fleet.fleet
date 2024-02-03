@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>EVRYMN Intel Cap Counter Fleet</Name>
   <Version>3</Version>
-  <TotalPoints>3000</TotalPoints>
+  <TotalPoints>2918</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -1004,6 +1004,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1100,6 +1101,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1178,6 +1180,7 @@ Blast Radius: 47 m</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>1</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1275,6 +1278,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1362,6 +1366,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>1</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

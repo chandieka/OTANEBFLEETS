@@ -10,8 +10,8 @@
       <SaveID xsi:nil="true" />
       <Key>db68070d-0f6f-4da3-980d-d0bcacc24a53</Key>
       <Name>The Rude Snap</Name>
-      <Cost>945</Cost>
-      <Callsign>Mama DD</Callsign>
+      <Cost>935</Cost>
+      <Callsign>1-MAMA DD</Callsign>
       <Number>484</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Keystone Destroyer</HullType>
@@ -159,8 +159,8 @@
       <SaveID xsi:nil="true" />
       <Key>4362e690-5f61-49e3-8369-0c81523d7fbd</Key>
       <Name>Dire Quota</Name>
-      <Cost>685</Cost>
-      <Callsign>Papa Frigate</Callsign>
+      <Cost>675</Cost>
+      <Callsign>2-PAPA FF</Callsign>
       <Number>227</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Raines Frigate</HullType>
@@ -290,74 +290,49 @@
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>89f081b8-c3d0-42d6-8542-af402526af06</Key>
-      <Name>Olden Bingo</Name>
-      <Cost>282</Cost>
-      <Callsign>EWR</Callsign>
-      <Number>299</Number>
+      <Key>73e1368e-95c0-478c-a977-cb7f2a10f57e</Key>
+      <Name>Gruff Goat</Name>
+      <Cost>265</Cost>
+      <Callsign>3-EWR</Callsign>
+      <Number>946</Number>
       <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Raines Frigate</HullType>
+      <HullType>Stock/Sprinter Corvette</HullType>
       <SocketMap>
         <HullSocket>
-          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>xmgbki9ZIEWxoZvKhRyTFA</MagazineKey>
-                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>hAW_gCWAXESPQLfco6yhlQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>9</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
           <ComponentName>Stock/ES22 'Pinard' Electronic Support Module</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>xRYIkvssd0mPY3VIgrnQ5A</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>6Tzo7268MEqgyFxnGvLKUg</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <Key>rXO8xwG1MkqzI_2pU-O_qQ</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>O_Y-AJc7r0alOg36rvY6MQ</Key>
+          <Key>GefqwCQzg0qXA3EFRmDtPw</Key>
           <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>5APOD4UfSkGdkm9WWdAvLA</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <Key>4WpJyiOKVEqCwR99l47MkA</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>lorATFhkTkeZQYThYOHazg</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load />
-          </ComponentData>
+          <Key>4EHx4mQhNUi-WuuQtQF5fA</Key>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
-          <ComponentName>Stock/FR4800 Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>V42tXibIR0e4u6riIHYZOw</Key>
+          <Key>TSPPW9ECe06-MGzR1i0WvQ</Key>
           <ComponentName>Stock/RS41 'Spyglass' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>p-m7ijS6ukuqzuBT5NE_lA</Key>
-          <ComponentName>Stock/Adaptive Radar Receiver</ComponentName>
+          <Key>MBOvGazj6UWpt2OOy44s7w</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups />
@@ -367,8 +342,8 @@
       <SaveID xsi:nil="true" />
       <Key>0464813b-b342-4d47-964e-cb9edd868379</Key>
       <Name>Corny Ware</Name>
-      <Cost>272</Cost>
-      <Callsign>C-1</Callsign>
+      <Cost>282</Cost>
+      <Callsign>4-C</Callsign>
       <Number>198</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -397,7 +372,26 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>x9hmqUm2TkGr-H68yySsOA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Y7lQ9qe03UiGna835RWG2g</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-112 Weeeeww</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>VDW-IEF8fUG873iNwyPc5w</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -452,8 +446,8 @@
       <SaveID xsi:nil="true" />
       <Key>623bd9b8-c6a1-4709-a1b0-02fadf35e219</Key>
       <Name>Heavy Tale</Name>
-      <Cost>272</Cost>
-      <Callsign>C-2</Callsign>
+      <Cost>281</Cost>
+      <Callsign>5-C</Callsign>
       <Number>1489</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -482,7 +476,26 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>ZTBNlkN2ikiGjjtuXeKOsg</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>QO5CMMaqLU-qhcvVvP2Gxg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-112 Weeeeww</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xLI112FUEkSOR5iy-umBwg</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -537,8 +550,8 @@
       <SaveID xsi:nil="true" />
       <Key>0f0e5dd9-0ce1-403c-a1d1-884b4506d8ff</Key>
       <Name>Bluff Sweep</Name>
-      <Cost>272</Cost>
-      <Callsign>C-3</Callsign>
+      <Cost>281</Cost>
+      <Callsign>6-C</Callsign>
       <Number>159</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -567,7 +580,26 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>eKEJFHG1ckypyHy9vd4f-w</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>N_15-phXgUiTxu3jH868Jw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-112 Weeeeww</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>GSofncGMKkmkD2k3esmLpQ</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -622,8 +654,8 @@
       <SaveID xsi:nil="true" />
       <Key>97445184-698b-4c91-adee-b2f7c7fa74ee</Key>
       <Name>Unlit Genie</Name>
-      <Cost>272</Cost>
-      <Callsign>C-4</Callsign>
+      <Cost>281</Cost>
+      <Callsign>7-C</Callsign>
       <Number>1072</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Sprinter Corvette</HullType>
@@ -652,7 +684,26 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>2zIPtc_ipUqHvOpESNFRNQ</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>5</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>9hUT3zVqW0eA4Dx1A1aerg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-112 Weeeeww</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xLi2vYlnnESeZLHS5bitQA</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -734,7 +785,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>19</Cost>
+      <Cost>18</Cost>
       <BodyKey>Stock/SGM-H-3 Body</BodyKey>
       <TemplateKey>bb2aed1c-cc51-47dd-9932-f0414e236fa1</TemplateKey>
       <BaseColor>
@@ -781,6 +832,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -830,7 +882,7 @@ Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Sig
 Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 Cruise: 200 m/s for 15,667 m, top speed in 3.3 s
-Sprint: 550 m/s for 6,193 m, top speed in 0.6 s
+Sprint: 550 m/s for 6,110 m, top speed in 0.6 s
    Stage Trigger on Target Detection (&lt;color=#FBFF4C&gt;Direction-Only Seeker&lt;/color&gt;)
 Terminal Maneuvers: Weave
 
@@ -893,6 +945,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -911,8 +964,8 @@ Failure Rate: 0 %</LongDescription>
             <ComponentKey />
             <BalanceValues>
               <A>0</A>
-              <B>0.7713648</B>
-              <C>0.228635192</C>
+              <B>0.7551417</B>
+              <C>0.244858325</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -940,11 +993,11 @@ Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-200 m/s for 5,012 m, top speed in 1.2 s
-Terminal Maneuvers: None
+200 m/s for 5,199 m, top speed in 1.1 s
+Terminal Maneuvers: Weave
 
 Contact Fuze, High Explosive, Shaped
-Armor: 114cm   Component: 4,320hp
+Armor: 93cm   Component: 2,880hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -955,7 +1008,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
+      <Cost>8</Cost>
       <BodyKey>Stock/SGT-3 Body</BodyKey>
       <TemplateKey>b1b8fc4b-5ce3-4dab-b191-211f256847dc</TemplateKey>
       <BaseColor>
@@ -988,11 +1041,12 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>true</HotLaunch>
+            <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1001,19 +1055,19 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>6</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>8</Size>
+          <Size>10</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
               <A>0.199045017</A>
-              <B>0.6312846</B>
-              <C>0.169670388</C>
+              <B>0.4731098</B>
+              <C>0.327845156</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -1031,11 +1085,11 @@ Targeting Modes:
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 Validation Seeker(s): PASSIVE (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-200 m/s for 5,012 m, top speed in 1.2 s
-Terminal Maneuvers: None
+200 m/s for 5,227 m, top speed in 1.1 s
+Terminal Maneuvers: Weave
 
 Contact Fuze, High Explosive, Shaped
-Armor: 114cm   Component: 4,320hp
+Armor: 93cm   Component: 2,880hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -1046,7 +1100,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>8</Cost>
+      <Cost>9</Cost>
       <BodyKey>Stock/SGT-3 Body</BodyKey>
       <TemplateKey>d08d5933-fd0c-434c-9e0c-0b7b4c393529</TemplateKey>
       <BaseColor>
@@ -1085,11 +1139,12 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>true</HotLaunch>
+            <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1098,19 +1153,100 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>6</Size>
+          <Size>4</Size>
           <InstalledComponent>
             <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>8</Size>
+          <Size>10</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
               <A>0.199045017</A>
-              <B>0.6312846</B>
-              <C>0.169670388</C>
+              <B>0.47716558</B>
+              <C>0.323789418</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <AssociatedTemplateName>SGM-112 Weeeeww</AssociatedTemplateName>
+      <Designation>SGM-112</Designation>
+      <Nickname>Weeeeww</Nickname>
+      <Description>DIRECT - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGM-112 Weeeeww is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+
+250 m/s for 5,911 m, top speed in 0.7 s
+Terminal Maneuvers: None
+
+Contact Fuze, High Explosive, Shaped
+Armor: 31cm   Component: 317hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0</LongDescription>
+      <Cost>2</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>b98348fa-4e0d-4b5b-a115-707ed0db3794</TemplateKey>
+      <BaseColor>
+        <r>-7.07805157E-08</r>
+        <g>-3.441876E-08</g>
+        <b>-0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>-7.07805157E-08</r>
+        <g>-0</g>
+        <b>-0</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>true</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0</A>
+              <B>1</B>
+              <C>0</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

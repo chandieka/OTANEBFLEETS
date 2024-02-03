@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>FFL AMM SAH TEST</Name>
+  <Version>3</Version>
+  <TotalPoints>1586</TotalPoints>
+  <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>e2f0dcf0-a009-4910-9ca0-803ef24f4472</Key>
+      <Name>Moved Chap</Name>
+      <Cost>605</Cost>
+      <Number>597</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Raines Frigate</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>L5Il7WPthk-dYyFr79vOwA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block III</MunitionKey>
+                <Quantity>46</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>DJC67k5RZkyfWfD5qdDanA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block II</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>0-Oryza9zUSxr9SQ6D6rfQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block III</MunitionKey>
+                <Quantity>45</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>foApM84hT0GpEw4GaFv38w</Key>
+          <ComponentName>Stock/Signature Scrambler</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>2822c255-a866-40de-8b41-27a1ebdb952c</Key>
+      <Name>Dusty Wall</Name>
+      <Cost>981</Cost>
+      <Number>1461</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Raines Frigate</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>t0qeKN3zIUKQnjE7L1ZW5A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block III</MunitionKey>
+                <Quantity>46</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>WwMGqYiU7E6lp7ID47phqA</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>wopEI3uZ2kaY_dh8rGu3Fw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block III</MunitionKey>
+                <Quantity>46</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>sGHostmlY0etdCrM87IDYA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block III</MunitionKey>
+                <Quantity>46</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>D3zoB0PetEC973iUck_mNQ</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>FRbWBMzO1027ht5P6F1vSw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Balestra Block III</MunitionKey>
+                <Quantity>46</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>98N-YI_1WUOs--qPYlt-7g</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>V42tXibIR0e4u6riIHYZOw</Key>
+          <ComponentName>Stock/RS41 'Spyglass' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>foApM84hT0GpEw4GaFv38w</Key>
+          <ComponentName>Stock/Signature Scrambler</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>SGM-100</Designation>
+      <Nickname>Balestra Block II</Nickname>
+      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The SGM-100 Balestra Block II is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using a Semi-Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+
+300 m/s for 3,841 m, top speed in 0.6 s
+Terminal Maneuvers: None
+
+Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 2cm   Component: 57hp
+Blast Radius: 40 m
+
+Body Integrity: 10 
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>1</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>ccc7f9f7-4b56-42fa-8ea1-ccdc94ea2fcd</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>0.4862745</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>0</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>1</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.3311081</A>
+              <B>0.212401658</B>
+              <C>0.456490248</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-100</Designation>
+      <Nickname>Balestra Block III</Nickname>
+      <Description>DIRECT - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The SGM-100 Balestra Block III is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes:
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+
+300 m/s for 3,841 m, top speed in 0.6 s
+Terminal Maneuvers: None
+
+Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 2cm   Component: 57hp
+Blast Radius: 40 m
+
+Body Integrity: 10 
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>4</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>25201736-7dd0-4e6a-a992-1490f04acdff</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>0.4862745</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Extended Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>14</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>1</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.3311081</A>
+              <B>0.212401658</B>
+              <C>0.456490248</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>

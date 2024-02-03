@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>134fcd25-aae4-42d4-8365-483d44fc173f</Key>
       <Name>Inane Labor</Name>
-      <Cost>2384</Cost>
+      <Cost>2353</Cost>
       <Callsign>E1-HEKP</Callsign>
       <Number>1316</Number>
       <SymbolOption>0</SymbolOption>
@@ -187,16 +187,7 @@
         </HullSocket>
         <HullSocket>
           <Key>XTg1H1Popku5gxW8sei5XQ</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>NCfOMMiHEUa6MWT0rHGTaw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-101 Knife SR-1</MunitionKey>
-                <Quantity>23</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>a8H-rPyVSk6uBOrP7lQYUA</Key>
@@ -271,7 +262,7 @@
       <SaveID xsi:nil="true" />
       <Key>de2d6998-899e-482c-be03-bdfc09552250</Key>
       <Name>Utter Berry</Name>
-      <Cost>351</Cost>
+      <Cost>382</Cost>
       <Callsign>E1-EW</Callsign>
       <Number>581</Number>
       <SymbolOption>0</SymbolOption>
@@ -283,7 +274,21 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>Q6iI9dv-V0yimPA-uFNcuw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-101 Knife SR-1</MunitionKey>
+                <Quantity>35</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>YXB3PPG4mUCNgVcr7J_wOA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>7</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -297,13 +302,7 @@
           <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>MZ2UdHVb3UitxZZAVjg_Zw</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>825</Quantity>
-              </MagSaveData>
-            </Load>
+            <Load />
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -332,14 +331,14 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="EW R">
-          <MemberKeys>
-            <string>IUdNSVZm2Eu9n3F5HnSAng</string>
-          </MemberKeys>
-        </WepGroup>
         <WepGroup Name="EW L">
           <MemberKeys>
             <string>ZxY9ONYz80SiLNSObvjNzQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="EW R">
+          <MemberKeys>
+            <string>IUdNSVZm2Eu9n3F5HnSAng</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -775,7 +774,15 @@ Targeting Modes:
 Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 150 m/s for 20,075 m, top speed in 0.8 s
-Terminal Maneuvers: None</LongDescription>
+Terminal Maneuvers: None
+
+Body Integrity: 30 
+Programming Time: 8 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
       <Cost>7</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>45759116-badc-4aea-ae5e-8414976fb2e8</TemplateKey>
@@ -858,7 +865,15 @@ Terminal Maneuvers: None
 
 Proximity Fuze, High Explosive, Blast Fragmentation
 Armor: 2cm   Component: 65hp
-Blast Radius: 47 m</LongDescription>
+Blast Radius: 47 m
+
+Body Integrity: 10 
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
       <Cost>2</Cost>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
       <TemplateKey>226aeeed-8c23-49ed-b95a-d50b8d786fb1</TemplateKey>
